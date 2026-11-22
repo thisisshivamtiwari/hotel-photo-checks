@@ -69,13 +69,13 @@ Test set: 120 photos from the three test hotels (75 with a blur, exposure or til
 
 | Checker | Bad photos passed as ready | Bad sent to a person | Bad flagged | Good ready | Good sent to a person | Good flagged | Cost per photo | Seconds per photo |
 |---|---|---|---|---|---|---|---|---|
-| Rules + CLIP | 2/75 | 8 | 65 | 22/45 | 19 | 4 | $0.0000 | 0.044 |
+| Rules + CLIP | 2/75 | 8 | 65 | 22/45 | 19 | 4 | $0.0000 | 0.04 |
 | Haiku 4.5 | 35/75 | 0 | 40 | 44/45 | 0 | 1 | $0.0047 | 7.07 |
 | Sonnet 5.5 | 14/75 | 1 | 60 | 41/45 | 1 | 3 | $0.0063 | 2.7 |
-| Rules + Haiku | 8/75 | 28 | 39 | 40/45 | 5 | 0 | $0.0047 | 7.11 |
-| Rules + Sonnet | 4/75 | 12 | 59 | 37/45 | 6 | 2 | $0.0063 | 2.74 |
-| Strict Rules + Haiku* | 2/75 | 35 | 38 | 22/45 | 23 | 0 | $0.0047 | 7.11 |
-| Strict Rules + Sonnet* | 1/75 | 19 | 55 | 21/45 | 24 | 0 | $0.0063 | 2.74 |
+| Rules + Haiku | 8/75 | 28 | 39 | 40/45 | 5 | 0 | $0.0047 | 7.1 |
+| Rules + Sonnet | 4/75 | 12 | 59 | 37/45 | 6 | 2 | $0.0063 | 2.7 |
+| Strict Rules + Haiku* | 2/75 | 35 | 38 | 22/45 | 23 | 0 | $0.0047 | 7.1 |
+| Strict Rules + Sonnet* | 1/75 | 19 | 55 | 21/45 | 24 | 0 | $0.0063 | 2.7 |
 
 **Each check** (caught / missed = called ok / can't tell, out of the photos with that defect; false alarms out of photos without it)
 

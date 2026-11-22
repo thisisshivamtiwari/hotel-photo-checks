@@ -39,7 +39,7 @@ def predictions(labels: dict, retune: bool = False) -> tuple[dict, dict, dict]:
     th = tune.tune(labels, meas, clip) if retune or not rules.THRESHOLDS.exists() else rules.thresholds()
     hashes = {n: rules.phash(rules.load(SET / f"{n}.jpg").img) for n in labels}
     preds = {arm: {} for arm in ARMS}
-    cost = {"rules": {"usd": 0.0, "seconds": round(rule_secs + clip["seconds_per_photo"], 3)}}
+    cost = {"rules": {"usd": 0.0, "seconds": round(rule_secs + clip["seconds_per_photo"], 2)}}
     for n in labels:
         preds["rules"][n] = {**rules.judge(meas[n], th), "amenities": combine.clip_amenities(clip["photos"][n], th)}
     for m in LLMS:
@@ -65,7 +65,7 @@ def predictions(labels: dict, retune: bool = False) -> tuple[dict, dict, dict]:
         for kind in ("both", "strict"):
             cost[f"{kind}-{m.split('-')[0]}"] = {
                 "usd": cost[m]["usd"],
-                "seconds": round(cost[m]["seconds"] + cost["rules"]["seconds"], 2),
+                "seconds": round(cost[m]["seconds"] + cost["rules"]["seconds"], 1),
             }
     return preds, {"thresholds": th, "measures": meas, "hashes": hashes}, cost
 
