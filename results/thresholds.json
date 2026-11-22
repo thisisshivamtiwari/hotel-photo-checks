@@ -1,0 +1,19 @@
+{
+ "blur_laplacian": 138.11,
+ "dark_mean": 0.29,
+ "bright_clip": 0.14,
+ "tilt_deg": 5.9,
+ "clip_yes": 0.465,
+ "band": 0.25,
+ "dup_max_bits": 6,
+ "dup_unknown_bits": 4,
+ "dev_balanced_accuracy": {
+  "blur": 0.983,
+  "dark": 1.0,
+  "bright": 1.0,
+  "tilt": 0.95,
+  "clip_yes": 1.0
+ },
+ "dev_images": 40,
+ "dev_images_with_tilt_reading": 12
+}

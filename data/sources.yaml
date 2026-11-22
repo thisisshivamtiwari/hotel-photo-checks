@@ -1,0 +1,243 @@
+# Source photos: Wikimedia Commons files under open licences (CC0, public domain, CC BY, CC BY-SA), none of a hotel.
+# Picked by hand from scripts/commons_candidates.py output; scripts/fetch_photos.py downloads the 1024 px versions.
+# Every derived image in data/photos/ keeps the licence of its source (CC BY-SA sources stay CC BY-SA).
+- id: p01
+  title: File:Hathersage Outdoor Swimming Pool - geograph.org.uk - 7599455.jpg
+  license: CC BY-SA 2.0
+  artist: Paul Foster
+  page: https://commons.wikimedia.org/wiki/File:Hathersage_Outdoor_Swimming_Pool_-_geograph.org.uk_-_7599455.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Hathersage_Outdoor_Swimming_Pool_-_geograph.org.uk_-_7599455.jpg/1280px-Hathersage_Outdoor_Swimming_Pool_-_geograph.org.uk_-_7599455.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p02
+  title: File:Kalevan maauimala.jpeg
+  license: CC BY-SA 4.0
+  artist: kallerna
+  page: https://commons.wikimedia.org/wiki/File:Kalevan_maauimala.jpeg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Kalevan_maauimala.jpeg/1280px-Kalevan_maauimala.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p03
+  title: File:Kalevan maauimala 2.jpg
+  license: CC BY-SA 4.0
+  artist: kallerna
+  page: https://commons.wikimedia.org/wiki/File:Kalevan_maauimala_2.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Kalevan_maauimala_2.jpg/1280px-Kalevan_maauimala_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p04
+  title: File:Kalevan maauimala 3.jpg
+  license: CC BY-SA 4.0
+  artist: kallerna
+  page: https://commons.wikimedia.org/wiki/File:Kalevan_maauimala_3.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kalevan_maauimala_3.jpg/1280px-Kalevan_maauimala_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p05
+  title: File:Swimming pool, Maikammer (P1180480).jpg
+  license: CC BY-SA 4.0
+  artist: Matti Blume
+  page: https://commons.wikimedia.org/wiki/File:Swimming_pool,_Maikammer_(P1180480).jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Swimming_pool%2C_Maikammer_%28P1180480%29.jpg/1280px-Swimming_pool%2C_Maikammer_%28P1180480%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p06
+  title: File:Denich Gym renovations unveiled 140508-A-PO157-005.jpg
+  license: Public domain
+  artist: Staff Sgt. Carmen Steinbach
+  page: https://commons.wikimedia.org/wiki/File:Denich_Gym_renovations_unveiled_140508-A-PO157-005.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Denich_Gym_renovations_unveiled_140508-A-PO157-005.jpg/1280px-Denich_Gym_renovations_unveiled_140508-A-PO157-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p07
+  title: File:Fitness equipment in a modern gym with various machines and workout space during the morning hours.jpg
+  license: CC BY 2.0
+  artist: Shixart1985
+  page: https://commons.wikimedia.org/wiki/File:Fitness_equipment_in_a_modern_gym_with_various_machines_and_workout_space_during_the_morning_hours.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Fitness_equipment_in_a_modern_gym_with_various_machines_and_workout_space_during_the_morning_hours.jpg/1280px-Fitness_equipment_in_a_modern_gym_with_various_machines_and_workout_space_during_the_morning_hours.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p08
+  title: File:Turner Hall Milwaukee weights room.jpg
+  license: CC BY-SA 4.0
+  artist: James Steakley
+  page: https://commons.wikimedia.org/wiki/File:Turner_Hall_Milwaukee_weights_room.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Turner_Hall_Milwaukee_weights_room.jpg/1280px-Turner_Hall_Milwaukee_weights_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p09
+  title: File:This gym room showcases various workout machines.jpg
+  license: CC BY 2.0
+  artist: Shixart1985
+  page: https://commons.wikimedia.org/wiki/File:This_gym_room_showcases_various_workout_machines.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/This_gym_room_showcases_various_workout_machines.jpg/1280px-This_gym_room_showcases_various_workout_machines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p10
+  title: File:Bathroom Mid-City New Orleans - Time to reglaze the Tub?.jpg
+  license: CC BY 2.0
+  artist: Bart Everson
+  page: https://commons.wikimedia.org/wiki/File:Bathroom_Mid-City_New_Orleans_-_Time_to_reglaze_the_Tub%3F.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bathroom_Mid-City_New_Orleans_-_Time_to_reglaze_the_Tub%3F.jpg/1280px-Bathroom_Mid-City_New_Orleans_-_Time_to_reglaze_the_Tub%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p11
+  title: File:Bathroom with bathtube.jpg
+  license: CC BY-SA 3.0
+  artist: Gürkan Sengün
+  page: https://commons.wikimedia.org/wiki/File:Bathroom_with_bathtube.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bathroom_with_bathtube.jpg/1280px-Bathroom_with_bathtube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p12
+  title: File:Marble Bathtub Destrehan.jpg
+  license: CC BY-SA 2.0
+  artist: Ian McKellar
+  page: https://commons.wikimedia.org/wiki/File:Marble_Bathtub_Destrehan.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Marble_Bathtub_Destrehan.jpg/1280px-Marble_Bathtub_Destrehan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p13
+  title: File:Mary Plantation House Upstairs Interior Bathroom Bathtub.JPG
+  license: CC BY-SA 3.0
+  artist: Infrogmation of New Orleans
+  page: https://commons.wikimedia.org/wiki/File:Mary_Plantation_House_Upstairs_Interior_Bathroom_Bathtub.JPG
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Mary_Plantation_House_Upstairs_Interior_Bathroom_Bathtub.JPG/1280px-Mary_Plantation_House_Upstairs_Interior_Bathroom_Bathtub.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p15
+  title: File:1823 Bathroom New Orleans - Shower Stall.jpg
+  license: CC BY 2.0
+  artist: Wendy Harman
+  page: https://commons.wikimedia.org/wiki/File:1823_Bathroom_New_Orleans_-_Shower_Stall.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/1823_Bathroom_New_Orleans_-_Shower_Stall.jpg/1280px-1823_Bathroom_New_Orleans_-_Shower_Stall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p16
+  title: File:Bathroom Number London Cheerberry.jpg
+  license: CC BY-SA 4.0
+  artist: Rgarcia24
+  page: https://commons.wikimedia.org/wiki/File:Bathroom_Number_London_Cheerberry.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bathroom_Number_London_Cheerberry.jpg/1280px-Bathroom_Number_London_Cheerberry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p17
+  title: File:Bathroom Shower (48877712171).jpg
+  license: Public domain
+  artist: Yellowstone National Park
+  page: https://commons.wikimedia.org/wiki/File:Bathroom_Shower_(48877712171).jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bathroom_Shower_%2848877712171%29.jpg/1280px-Bathroom_Shower_%2848877712171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p18
+  title: File:Bathroom with Shower (48877908032).jpg
+  license: Public domain
+  artist: Yellowstone National Park
+  page: https://commons.wikimedia.org/wiki/File:Bathroom_with_Shower_(48877908032).jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bathroom_with_Shower_%2848877908032%29.jpg/1280px-Bathroom_with_Shower_%2848877908032%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p19
+  title: File:Bedroom big bed.jpg
+  license: CC BY-SA 3.0
+  artist: IFERREIRO
+  page: https://commons.wikimedia.org/wiki/File:Bedroom_big_bed.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bedroom_big_bed.jpg/1280px-Bedroom_big_bed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p20
+  title: File:Casa de Estudillo - bedroom 01.jpg
+  license: CC BY-SA 3.0
+  artist: Joe Mabel
+  page: https://commons.wikimedia.org/wiki/File:Casa_de_Estudillo_-_bedroom_01.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Casa_de_Estudillo_-_bedroom_01.jpg/1280px-Casa_de_Estudillo_-_bedroom_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p21
+  title: File:Chekhov Bedroom at Melikhovo.JPG
+  license: CC BY-SA 3.0
+  artist: SiefkinDR
+  page: https://commons.wikimedia.org/wiki/File:Chekhov_Bedroom_at_Melikhovo.JPG
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Chekhov_Bedroom_at_Melikhovo.JPG/1280px-Chekhov_Bedroom_at_Melikhovo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p22
+  title: File:Child Bed Interior.jpg
+  license: CC BY-SA 4.0
+  artist: Architect Rahat Chowdhury
+  page: https://commons.wikimedia.org/wiki/File:Child_Bed_Interior.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Child_Bed_Interior.jpg/1280px-Child_Bed_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p23
+  title: File:Eltham Palace - interior, view of bed in Virginia Courtauld’s bedroom.jpg
+  license: CC BY-SA 4.0
+  artist: Tom Parnell
+  page: https://commons.wikimedia.org/wiki/File:Eltham_Palace_-_interior,_view_of_bed_in_Virginia_Courtauld%E2%80%99s_bedroom.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Eltham_Palace_-_interior%2C_view_of_bed_in_Virginia_Courtauld%E2%80%99s_bedroom.jpg/1280px-Eltham_Palace_-_interior%2C_view_of_bed_in_Virginia_Courtauld%E2%80%99s_bedroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p24
+  title: File:Mary Plantation House Upstairs Interior Thru Window Bedroom Big Bed.JPG
+  license: CC BY-SA 3.0
+  artist: Infrogmation of New Orleans
+  page: https://commons.wikimedia.org/wiki/File:Mary_Plantation_House_Upstairs_Interior_Thru_Window_Bedroom_Big_Bed.JPG
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Mary_Plantation_House_Upstairs_Interior_Thru_Window_Bedroom_Big_Bed.JPG/1280px-Mary_Plantation_House_Upstairs_Interior_Thru_Window_Bedroom_Big_Bed.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p25
+  title: File:Master Bed Room.jpg
+  license: CC BY-SA 4.0
+  artist: Architect Rahat Chowdhury
+  page: https://commons.wikimedia.org/wiki/File:Master_Bed_Room.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Master_Bed_Room.jpg/1280px-Master_Bed_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p26
+  title: File:Culloden Tower living room fireplace 01.jpg
+  license: CC BY-SA 4.0
+  artist: Kognos
+  page: https://commons.wikimedia.org/wiki/File:Culloden_Tower_living_room_fireplace_01.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Culloden_Tower_living_room_fireplace_01.jpg/1280px-Culloden_Tower_living_room_fireplace_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p27
+  title: File:Culloden Tower living room fireplace 02.jpg
+  license: CC BY-SA 4.0
+  artist: Kognos
+  page: https://commons.wikimedia.org/wiki/File:Culloden_Tower_living_room_fireplace_02.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Culloden_Tower_living_room_fireplace_02.jpg/1280px-Culloden_Tower_living_room_fireplace_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p28
+  title: File:Ilyiny-Kochneva Mansion, Fireplace hall (Mirrored living room), 2023-07-25 13.jpg
+  license: CC BY-SA 4.0
+  artist: Paul Kaganer
+  page: https://commons.wikimedia.org/wiki/File:Ilyiny-Kochneva_Mansion,_Fireplace_hall_(Mirrored_living_room),_2023-07-25_13.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ilyiny-Kochneva_Mansion%2C_Fireplace_hall_%28Mirrored_living_room%29%2C_2023-07-25_13.jpg/1280px-Ilyiny-Kochneva_Mansion%2C_Fireplace_hall_%28Mirrored_living_room%29%2C_2023-07-25_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p29
+  title: File:Arlington Court interior, Dining Room (detail) - geograph.org.uk - 6595706.jpg
+  license: CC BY-SA 2.0
+  artist: Jeff Gogarty
+  page: https://commons.wikimedia.org/wiki/File:Arlington_Court_interior,_Dining_Room_(detail)_-_geograph.org.uk_-_6595706.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Arlington_Court_interior%2C_Dining_Room_%28detail%29_-_geograph.org.uk_-_6595706.jpg/1280px-Arlington_Court_interior%2C_Dining_Room_%28detail%29_-_geograph.org.uk_-_6595706.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p30
+  title: File:Basildon Park, Dining Room - geograph.org.uk - 3029945.jpg
+  license: CC BY-SA 2.0
+  artist: Len Williams
+  page: https://commons.wikimedia.org/wiki/File:Basildon_Park,_Dining_Room_-_geograph.org.uk_-_3029945.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Basildon_Park%2C_Dining_Room_-_geograph.org.uk_-_3029945.jpg/1280px-Basildon_Park%2C_Dining_Room_-_geograph.org.uk_-_3029945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p31
+  title: File:Dining Room 559.jpg
+  license: CC BY-SA 4.0
+  artist: Chris Light
+  page: https://commons.wikimedia.org/wiki/File:Dining_Room_559.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Dining_Room_559.jpg/1280px-Dining_Room_559.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p32
+  title: File:Interior of Nieborów Palace - small dining room - 02.jpg
+  license: CC BY-SA 3.0
+  artist: Jolanta Dyr
+  page: https://commons.wikimedia.org/wiki/File:Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_02.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_02.jpg/1280px-Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p33
+  title: File:Dining Room 556.jpg
+  license: CC BY-SA 4.0
+  artist: Chris Light
+  page: https://commons.wikimedia.org/wiki/File:Dining_Room_556.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dining_Room_556.jpg/1280px-Dining_Room_556.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p34
+  title: File:Dining room in Kibbutz Yakum (1).jpg
+  license: CC BY-SA 4.0
+  artist: Avi1111 dr. avishai teicher
+  page: https://commons.wikimedia.org/wiki/File:Dining_room_in_Kibbutz_Yakum_(1).jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Dining_room_in_Kibbutz_Yakum_%281%29.jpg/1280px-Dining_room_in_Kibbutz_Yakum_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p35
+  title: File:Interior of Nieborów Palace - small dining room - 03.jpg
+  license: CC BY-SA 3.0
+  artist: Jolanta Dyr
+  page: https://commons.wikimedia.org/wiki/File:Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_03.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_03.jpg/1280px-Interior_of_Niebor%C3%B3w_Palace_-_small_dining_room_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p36
+  title: File:Baltic Sea view from Schmiedeberg hill in Rerik, 2025-06-23.jpg
+  license: CC BY-SA 4.0
+  artist: Radomianin
+  page: https://commons.wikimedia.org/wiki/File:Baltic_Sea_view_from_Schmiedeberg_hill_in_Rerik,_2025-06-23.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Baltic_Sea_view_from_Schmiedeberg_hill_in_Rerik%2C_2025-06-23.jpg/1280px-Baltic_Sea_view_from_Schmiedeberg_hill_in_Rerik%2C_2025-06-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p37
+  title: File:Beach and sea at Milford - geograph.org.uk - 2807798.jpg
+  license: CC BY-SA 2.0
+  artist: Daniel Karmy
+  page: https://commons.wikimedia.org/wiki/File:Beach_and_sea_at_Milford_-_geograph.org.uk_-_2807798.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Beach_and_sea_at_Milford_-_geograph.org.uk_-_2807798.jpg/1280px-Beach_and_sea_at_Milford_-_geograph.org.uk_-_2807798.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p38
+  title: File:Beach of Cape Fiolent, Crimea.jpg
+  license: CC BY 4.0
+  artist: Vyacheslav Argenberg
+  page: https://commons.wikimedia.org/wiki/File:Beach_of_Cape_Fiolent,_Crimea.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Beach_of_Cape_Fiolent%2C_Crimea.jpg/1280px-Beach_of_Cape_Fiolent%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p39
+  title: File:Beautiful view of Coxs Bazar sea beach captured by Deloar Akram 01.jpg
+  license: CC BY 4.0
+  artist: DeloarAkram
+  page: https://commons.wikimedia.org/wiki/File:Beautiful_view_of_Coxs_Bazar_sea_beach_captured_by_Deloar_Akram_01.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Beautiful_view_of_Coxs_Bazar_sea_beach_captured_by_Deloar_Akram_01.jpg/1280px-Beautiful_view_of_Coxs_Bazar_sea_beach_captured_by_Deloar_Akram_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p40
+  title: File:Havelock Island, Mangrove tree on the beach, Andaman Islands.jpg
+  license: CC BY 4.0
+  artist: Vyacheslav Argenberg
+  page: https://commons.wikimedia.org/wiki/File:Havelock_Island,_Mangrove_tree_on_the_beach,_Andaman_Islands.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Havelock_Island%2C_Mangrove_tree_on_the_beach%2C_Andaman_Islands.jpg/1280px-Havelock_Island%2C_Mangrove_tree_on_the_beach%2C_Andaman_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- id: p41
+  title: File:Long Spit Sea of Azov2.jpg
+  license: CC BY-SA 4.0
+  artist: AlixSaz
+  page: https://commons.wikimedia.org/wiki/File:Long_Spit_Sea_of_Azov2.jpg
+  thumb: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Long_Spit_Sea_of_Azov2.jpg/1280px-Long_Spit_Sea_of_Azov2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail

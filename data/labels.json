@@ -1,0 +1,3262 @@
+{
+ "p01": {
+  "source": "p01",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4ab38eac2c0a377c"
+ },
+ "p01-blur": {
+  "source": "p01",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.22
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "999cea97407b15da"
+ },
+ "p01-dark": {
+  "source": "p01",
+  "edit": "dark",
+  "params": {
+   "factor": 0.112
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "7efc3474ca64cb2d"
+ },
+ "p01-tilt": {
+  "source": "p01",
+  "edit": "tilt",
+  "params": {
+   "degrees": -9.9
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "00c51763c63b0b09"
+ },
+ "p02": {
+  "source": "p02",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "7023dc22cf8085d4"
+ },
+ "p02-motion": {
+  "source": "p02",
+  "edit": "motion",
+  "params": {
+   "length_px": 27,
+   "angle": 106.6
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "329d4f5fd30ac4a8"
+ },
+ "p02-bright": {
+  "source": "p02",
+  "edit": "bright",
+  "params": {
+   "factor": 3.46
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a9310c5183f3c5e5"
+ },
+ "p02-dup": {
+  "source": "p02",
+  "edit": "dup",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p02",
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "93ea18b81d4d1f3c"
+ },
+ "p03": {
+  "source": "p03",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "0864a352d97d285a"
+ },
+ "p03-blur": {
+  "source": "p03",
+  "edit": "blur",
+  "params": {
+   "radius_px": 3.78
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "7ae4ddd7a25c5e02"
+ },
+ "p03-dark": {
+  "source": "p03",
+  "edit": "dark",
+  "params": {
+   "factor": 0.135
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f0bc382fa9a44b50"
+ },
+ "p03-tilt": {
+  "source": "p03",
+  "edit": "tilt",
+  "params": {
+   "degrees": 8.7
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "441677f01b8c751c"
+ },
+ "p04": {
+  "source": "p04",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "be4aa8a71a790676"
+ },
+ "p04-motion": {
+  "source": "p04",
+  "edit": "motion",
+  "params": {
+   "length_px": 22,
+   "angle": 54.8
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f9141d95a25d6dfb"
+ },
+ "p04-bright": {
+  "source": "p04",
+  "edit": "bright",
+  "params": {
+   "factor": 3.26
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "2e86a086dca82abc"
+ },
+ "p04-dup": {
+  "source": "p04",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p04",
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "d82d00b4cbb1b2ee"
+ },
+ "p05": {
+  "source": "p05",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "625d259c3e623519"
+ },
+ "p05-blur": {
+  "source": "p05",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.28
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "605478228e0111d7"
+ },
+ "p05-dark": {
+  "source": "p05",
+  "edit": "dark",
+  "params": {
+   "factor": 0.109
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "47661ef367a60b6e"
+ },
+ "p05-tilt": {
+  "source": "p05",
+  "edit": "tilt",
+  "params": {
+   "degrees": 7.5
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": true,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "c84faabfa750433f"
+ },
+ "p06": {
+  "source": "p06",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "080cc37e502abe41"
+ },
+ "p06-motion": {
+  "source": "p06",
+  "edit": "motion",
+  "params": {
+   "length_px": 28,
+   "angle": 149.3
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "07ae7eb3f480f0d5"
+ },
+ "p06-bright": {
+  "source": "p06",
+  "edit": "bright",
+  "params": {
+   "factor": 3.35
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "2efa454e997522c2"
+ },
+ "p06-dup": {
+  "source": "p06",
+  "edit": "dup",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p06",
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a2a412c3b80843c6"
+ },
+ "p07": {
+  "source": "p07",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "e42208d0a0a59077"
+ },
+ "p07-blur": {
+  "source": "p07",
+  "edit": "blur",
+  "params": {
+   "radius_px": 3.9
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "464f61c4f7363f76"
+ },
+ "p07-dark": {
+  "source": "p07",
+  "edit": "dark",
+  "params": {
+   "factor": 0.067
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "1252e437d69dea71"
+ },
+ "p07-tilt": {
+  "source": "p07",
+  "edit": "tilt",
+  "params": {
+   "degrees": -7.3
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "09a19051a4674b4a"
+ },
+ "p08": {
+  "source": "p08",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "2743136b00f6c189"
+ },
+ "p08-motion": {
+  "source": "p08",
+  "edit": "motion",
+  "params": {
+   "length_px": 25,
+   "angle": 20.4
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "0931395bd0e05652"
+ },
+ "p08-bright": {
+  "source": "p08",
+  "edit": "bright",
+  "params": {
+   "factor": 4.27
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "bfee519dc1d3188e"
+ },
+ "p08-dup": {
+  "source": "p08",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p08",
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "bc2f66dca9c3d8d3"
+ },
+ "p09": {
+  "source": "p09",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "b98d60e326135ea4"
+ },
+ "p09-blur": {
+  "source": "p09",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.35
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "de145fbc6e896d64"
+ },
+ "p09-dark": {
+  "source": "p09",
+  "edit": "dark",
+  "params": {
+   "factor": 0.126
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "e415466e129885e3"
+ },
+ "p09-tilt": {
+  "source": "p09",
+  "edit": "tilt",
+  "params": {
+   "degrees": 6.0
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": true,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a0b7a046b8c49a1a"
+ },
+ "p10": {
+  "source": "p10",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "fa2ae16f49bd196a"
+ },
+ "p10-motion": {
+  "source": "p10",
+  "edit": "motion",
+  "params": {
+   "length_px": 18,
+   "angle": 26.5
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "1a15dd5ecf2088a1"
+ },
+ "p10-bright": {
+  "source": "p10",
+  "edit": "bright",
+  "params": {
+   "factor": 3.23
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "40458e676f2e117d"
+ },
+ "p10-dup": {
+  "source": "p10",
+  "edit": "dup",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p10",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "1dda4a0c027f94f0"
+ },
+ "p11": {
+  "source": "p11",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "63ca751ff49c4055"
+ },
+ "p11-blur": {
+  "source": "p11",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.22
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "087e8e69ec548c92"
+ },
+ "p11-dark": {
+  "source": "p11",
+  "edit": "dark",
+  "params": {
+   "factor": 0.103
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "6525628a49a30084"
+ },
+ "p11-tilt": {
+  "source": "p11",
+  "edit": "tilt",
+  "params": {
+   "degrees": -6.1
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "48ee1c20891df994"
+ },
+ "p12": {
+  "source": "p12",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "1c3f111eadbb9259"
+ },
+ "p12-motion": {
+  "source": "p12",
+  "edit": "motion",
+  "params": {
+   "length_px": 17,
+   "angle": 130.2
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "8d17b172317981ff"
+ },
+ "p12-bright": {
+  "source": "p12",
+  "edit": "bright",
+  "params": {
+   "factor": 4.61
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4f4ebcdf99f539e8"
+ },
+ "p12-dup": {
+  "source": "p12",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p12",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a76b0a12e130740a"
+ },
+ "p13": {
+  "source": "p13",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "566dc0eb23c5761c"
+ },
+ "p13-blur": {
+  "source": "p13",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.95
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "c15c88244a69039e"
+ },
+ "p13-dark": {
+  "source": "p13",
+  "edit": "dark",
+  "params": {
+   "factor": 0.133
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "cc8ac0ed99693262"
+ },
+ "p13-tilt": {
+  "source": "p13",
+  "edit": "tilt",
+  "params": {
+   "degrees": 8.0
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4eb64e7a34207f21"
+ },
+ "p15": {
+  "source": "p15",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "7c60a9627cf1f919"
+ },
+ "p15-motion": {
+  "source": "p15",
+  "edit": "motion",
+  "params": {
+   "length_px": 21,
+   "angle": 150.4
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4f3f8001a36337c4"
+ },
+ "p15-bright": {
+  "source": "p15",
+  "edit": "bright",
+  "params": {
+   "factor": 4.5
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "947d2e0b4aecc092"
+ },
+ "p15-dup": {
+  "source": "p15",
+  "edit": "dup",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p15",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": true,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f627f49961286d63"
+ },
+ "p16": {
+  "source": "p16",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "2fa3dff06fdb0af2"
+ },
+ "p16-blur": {
+  "source": "p16",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.73
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "72ecca5b14e37e73"
+ },
+ "p16-dark": {
+  "source": "p16",
+  "edit": "dark",
+  "params": {
+   "factor": 0.067
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "398ced3d2c6c8336"
+ },
+ "p16-tilt": {
+  "source": "p16",
+  "edit": "tilt",
+  "params": {
+   "degrees": -8.1
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "0758c3c84de0be89"
+ },
+ "p17": {
+  "source": "p17",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4c84ecfa227cba99"
+ },
+ "p17-motion": {
+  "source": "p17",
+  "edit": "motion",
+  "params": {
+   "length_px": 21,
+   "angle": 41.1
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "43062eb5c9b57c7c"
+ },
+ "p17-bright": {
+  "source": "p17",
+  "edit": "bright",
+  "params": {
+   "factor": 4.7
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "d1e6f7ef1e961da2"
+ },
+ "p17-dup": {
+  "source": "p17",
+  "edit": "dup",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p17",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "5ce1a653d27e6628"
+ },
+ "p18": {
+  "source": "p18",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a18cfb2b76cac5f1"
+ },
+ "p18-blur": {
+  "source": "p18",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.98
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "0e5658b0404c8ee7"
+ },
+ "p18-dark": {
+  "source": "p18",
+  "edit": "dark",
+  "params": {
+   "factor": 0.074
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a02f08a21f22b28e"
+ },
+ "p18-tilt": {
+  "source": "p18",
+  "edit": "tilt",
+  "params": {
+   "degrees": -6.5
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "957c484239fbd791"
+ },
+ "p19": {
+  "source": "p19",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "71644a616ecbc1ef"
+ },
+ "p19-motion": {
+  "source": "p19",
+  "edit": "motion",
+  "params": {
+   "length_px": 20,
+   "angle": 96.8
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "8d65c07199ce847a"
+ },
+ "p19-bright": {
+  "source": "p19",
+  "edit": "bright",
+  "params": {
+   "factor": 4.73
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "59a48c82feb6399a"
+ },
+ "p19-dup": {
+  "source": "p19",
+  "edit": "dup",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p19",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "38549aba84f289e1"
+ },
+ "p20": {
+  "source": "p20",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "539aa3535e461229"
+ },
+ "p20-blur": {
+  "source": "p20",
+  "edit": "blur",
+  "params": {
+   "radius_px": 3.41
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "6c2e15091887882d"
+ },
+ "p20-dark": {
+  "source": "p20",
+  "edit": "dark",
+  "params": {
+   "factor": 0.136
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "9e32be4028a2bee4"
+ },
+ "p20-tilt": {
+  "source": "p20",
+  "edit": "tilt",
+  "params": {
+   "degrees": 6.2
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "275dd48582f4a356"
+ },
+ "p21": {
+  "source": "p21",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "226ab15db5a25b5e"
+ },
+ "p21-motion": {
+  "source": "p21",
+  "edit": "motion",
+  "params": {
+   "length_px": 28,
+   "angle": 90.8
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "4f49585cf99befdf"
+ },
+ "p21-bright": {
+  "source": "p21",
+  "edit": "bright",
+  "params": {
+   "factor": 4.83
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "cb9d4133898a8d78"
+ },
+ "p21-dup": {
+  "source": "p21",
+  "edit": "dup",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p21",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "ce8c600f9dd9bf95"
+ },
+ "p22": {
+  "source": "p22",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "412d7515a2127bf0"
+ },
+ "p22-blur": {
+  "source": "p22",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.08
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "11d6b2820df5a713"
+ },
+ "p22-dark": {
+  "source": "p22",
+  "edit": "dark",
+  "params": {
+   "factor": 0.127
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "1776a5f10a943ed7"
+ },
+ "p22-tilt": {
+  "source": "p22",
+  "edit": "tilt",
+  "params": {
+   "degrees": -8.6
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "32a5b4df06b83811"
+ },
+ "p23": {
+  "source": "p23",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "157055fd11ba72fd"
+ },
+ "p23-motion": {
+  "source": "p23",
+  "edit": "motion",
+  "params": {
+   "length_px": 18,
+   "angle": 81.4
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f314dd3e13787588"
+ },
+ "p23-bright": {
+  "source": "p23",
+  "edit": "bright",
+  "params": {
+   "factor": 3.0
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "d7b2226fbd52e01a"
+ },
+ "p23-dup": {
+  "source": "p23",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p23",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "8d6031a34716eeb3"
+ },
+ "p24": {
+  "source": "p24",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "6585974f134b8c3e"
+ },
+ "p24-blur": {
+  "source": "p24",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.43
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "08b31c4797b2820a"
+ },
+ "p24-dark": {
+  "source": "p24",
+  "edit": "dark",
+  "params": {
+   "factor": 0.138
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "441c8bc10f787c6b"
+ },
+ "p24-tilt": {
+  "source": "p24",
+  "edit": "tilt",
+  "params": {
+   "degrees": 9.1
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "e8d206f1dde715c8"
+ },
+ "p25": {
+  "source": "p25",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "e4108a9d795f1100"
+ },
+ "p25-motion": {
+  "source": "p25",
+  "edit": "motion",
+  "params": {
+   "length_px": 18,
+   "angle": 139.9
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "107571c2d925d769"
+ },
+ "p25-bright": {
+  "source": "p25",
+  "edit": "bright",
+  "params": {
+   "factor": 4.9
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "2b777c46b386ff5d"
+ },
+ "p25-dup": {
+  "source": "p25",
+  "edit": "dup",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p25",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "30db4b4a06ea2561"
+ },
+ "p26": {
+  "source": "p26",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "459cd67360ded18a"
+ },
+ "p26-blur": {
+  "source": "p26",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.4
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "63481d4ca413e577"
+ },
+ "p26-dark": {
+  "source": "p26",
+  "edit": "dark",
+  "params": {
+   "factor": 0.136
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "066736a5e738c1b8"
+ },
+ "p26-tilt": {
+  "source": "p26",
+  "edit": "tilt",
+  "params": {
+   "degrees": -7.9
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "efa7661c62d58936"
+ },
+ "p27": {
+  "source": "p27",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "6db27092531d8634"
+ },
+ "p27-motion": {
+  "source": "p27",
+  "edit": "motion",
+  "params": {
+   "length_px": 19,
+   "angle": 111.7
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "20afa00637651d25"
+ },
+ "p27-bright": {
+  "source": "p27",
+  "edit": "bright",
+  "params": {
+   "factor": 3.94
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "ea0136c20fbcd556"
+ },
+ "p27-dup": {
+  "source": "p27",
+  "edit": "dup",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p27",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "5affc7088b6bd372"
+ },
+ "p28": {
+  "source": "p28",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "b5399069b6c2231b"
+ },
+ "p28-blur": {
+  "source": "p28",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.52
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "d2c45a885cc4c644"
+ },
+ "p28-dark": {
+  "source": "p28",
+  "edit": "dark",
+  "params": {
+   "factor": 0.126
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "7d029a79f73d5f27"
+ },
+ "p28-tilt": {
+  "source": "p28",
+  "edit": "tilt",
+  "params": {
+   "degrees": -6.5
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "9bf0c7006b29e55c"
+ },
+ "p29": {
+  "source": "p29",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "f9567504f207c850"
+ },
+ "p29-motion": {
+  "source": "p29",
+  "edit": "motion",
+  "params": {
+   "length_px": 17,
+   "angle": 144.6
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "24c357fecdab3696"
+ },
+ "p29-bright": {
+  "source": "p29",
+  "edit": "bright",
+  "params": {
+   "factor": 4.15
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "53deaf6cc4b64e96"
+ },
+ "p29-dup": {
+  "source": "p29",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p29",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "2ab24c98ed3e6481"
+ },
+ "p30": {
+  "source": "p30",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "bf72ea5126514a4e"
+ },
+ "p30-blur": {
+  "source": "p30",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.59
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "c0fd02e15d6c732c"
+ },
+ "p30-dark": {
+  "source": "p30",
+  "edit": "dark",
+  "params": {
+   "factor": 0.121
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "2409a88a0b52d4ef"
+ },
+ "p30-tilt": {
+  "source": "p30",
+  "edit": "tilt",
+  "params": {
+   "degrees": 8.3
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "e2fd855643edb531"
+ },
+ "p31": {
+  "source": "p31",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "160d9784e6f70ef5"
+ },
+ "p31-motion": {
+  "source": "p31",
+  "edit": "motion",
+  "params": {
+   "length_px": 21,
+   "angle": 26.5
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "adea731f015a604b"
+ },
+ "p31-bright": {
+  "source": "p31",
+  "edit": "bright",
+  "params": {
+   "factor": 3.51
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "9668a9d4f1e93296"
+ },
+ "p31-dup": {
+  "source": "p31",
+  "edit": "dup",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p31",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "9c12bd310ce34b42"
+ },
+ "p32": {
+  "source": "p32",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "676672c975949afa"
+ },
+ "p32-blur": {
+  "source": "p32",
+  "edit": "blur",
+  "params": {
+   "radius_px": 4.73
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "c0fc1a24f3169f45"
+ },
+ "p32-dark": {
+  "source": "p32",
+  "edit": "dark",
+  "params": {
+   "factor": 0.111
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "89c3d5bfb6812bde"
+ },
+ "p32-tilt": {
+  "source": "p32",
+  "edit": "tilt",
+  "params": {
+   "degrees": -9.0
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": true
+  },
+  "sha256": "b6b75f3f682b1ca8"
+ },
+ "p33": {
+  "source": "p33",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "bdefe1866875ac36"
+ },
+ "p33-motion": {
+  "source": "p33",
+  "edit": "motion",
+  "params": {
+   "length_px": 24,
+   "angle": 93.6
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "15b4e2fbb4fce664"
+ },
+ "p33-bright": {
+  "source": "p33",
+  "edit": "bright",
+  "params": {
+   "factor": 4.68
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "cfed797dd6de2c90"
+ },
+ "p33-dup": {
+  "source": "p33",
+  "edit": "dup",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p33",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "c5e946d77f368670"
+ },
+ "p34": {
+  "source": "p34",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "0c99540446926e20"
+ },
+ "p34-blur": {
+  "source": "p34",
+  "edit": "blur",
+  "params": {
+   "radius_px": 3.0
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "33011959de9d5014"
+ },
+ "p34-dark": {
+  "source": "p34",
+  "edit": "dark",
+  "params": {
+   "factor": 0.062
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "012fcf597d31236f"
+ },
+ "p34-tilt": {
+  "source": "p34",
+  "edit": "tilt",
+  "params": {
+   "degrees": 9.5
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f9afac9f5f6b638f"
+ },
+ "p35": {
+  "source": "p35",
+  "edit": "none",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "b4aab0426259689e"
+ },
+ "p35-motion": {
+  "source": "p35",
+  "edit": "motion",
+  "params": {
+   "length_px": 25,
+   "angle": 162.7
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "f4dc0b1e874331e2"
+ },
+ "p35-bright": {
+  "source": "p35",
+  "edit": "bright",
+  "params": {
+   "factor": 3.93
+  },
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "a53bc0109186eff9"
+ },
+ "p35-dup": {
+  "source": "p35",
+  "edit": "dup",
+  "params": {},
+  "hotel": "tallowgate-court",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p35",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": false,
+   "fireplace": false
+  },
+  "sha256": "c3e774d723368285"
+ },
+ "p36": {
+  "source": "p36",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "6e6d61a5d3ebc807"
+ },
+ "p36-blur": {
+  "source": "p36",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.37
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "9a7fdd1b56fee67b"
+ },
+ "p36-dark": {
+  "source": "p36",
+  "edit": "dark",
+  "params": {
+   "factor": 0.113
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "a8dc8b24fef4e486"
+ },
+ "p36-tilt": {
+  "source": "p36",
+  "edit": "tilt",
+  "params": {
+   "degrees": 6.2
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "3887f92106dcde57"
+ },
+ "p37": {
+  "source": "p37",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "864b8698f432ac24"
+ },
+ "p37-motion": {
+  "source": "p37",
+  "edit": "motion",
+  "params": {
+   "length_px": 23,
+   "angle": 1.0
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "1a24c00f79193cf8"
+ },
+ "p37-bright": {
+  "source": "p37",
+  "edit": "bright",
+  "params": {
+   "factor": 3.25
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "a16b438894f632c7"
+ },
+ "p37-dup": {
+  "source": "p37",
+  "edit": "dup",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p37",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "f4659b7c65ade54f"
+ },
+ "p38": {
+  "source": "p38",
+  "edit": "none",
+  "params": {},
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "3784fe8cfafa4ee6"
+ },
+ "p38-blur": {
+  "source": "p38",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.56
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "58c02a84dfeb5f3f"
+ },
+ "p38-dark": {
+  "source": "p38",
+  "edit": "dark",
+  "params": {
+   "factor": 0.135
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "fa24def8ca6d2171"
+ },
+ "p38-tilt": {
+  "source": "p38",
+  "edit": "tilt",
+  "params": {
+   "degrees": 5.8
+  },
+  "hotel": "saltmarrow-house",
+  "split": "dev",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "d4be0c3098eaf0ef"
+ },
+ "p39": {
+  "source": "p39",
+  "edit": "none",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "89a2efc0a3ff7313"
+ },
+ "p39-motion": {
+  "source": "p39",
+  "edit": "motion",
+  "params": {
+   "length_px": 20,
+   "angle": 161.0
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "44810850fb895029"
+ },
+ "p39-bright": {
+  "source": "p39",
+  "edit": "bright",
+  "params": {
+   "factor": 4.14
+  },
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "25f84e7c0d3bc782"
+ },
+ "p39-dup": {
+  "source": "p39",
+  "edit": "dup",
+  "params": {},
+  "hotel": "wrenquay-rooms",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p39",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "743264427e2c1d46"
+ },
+ "p40": {
+  "source": "p40",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "3a0e86b58329eea7"
+ },
+ "p40-blur": {
+  "source": "p40",
+  "edit": "blur",
+  "params": {
+   "radius_px": 5.66
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "62f2211b00ac5b60"
+ },
+ "p40-dark": {
+  "source": "p40",
+  "edit": "dark",
+  "params": {
+   "factor": 0.102
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "dark",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "7c544013f8e80ad8"
+ },
+ "p40-tilt": {
+  "source": "p40",
+  "edit": "tilt",
+  "params": {
+   "degrees": -6.6
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "tilted",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "d1dfc9448de53a09"
+ },
+ "p41": {
+  "source": "p41",
+  "edit": "none",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "8308c4f3e7338493"
+ },
+ "p41-motion": {
+  "source": "p41",
+  "edit": "motion",
+  "params": {
+   "length_px": 28,
+   "angle": 51.2
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "problem",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "2833bcaa418cb2d0"
+ },
+ "p41-bright": {
+  "source": "p41",
+  "edit": "bright",
+  "params": {
+   "factor": 3.38
+  },
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "bright",
+  "framing": "ok",
+  "dup_of": null,
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "6c80532c1ca7a209"
+ },
+ "p41-dup": {
+  "source": "p41",
+  "edit": "dup",
+  "params": {},
+  "hotel": "brindlemoor-house",
+  "split": "test",
+  "blur": "ok",
+  "exposure": "ok",
+  "framing": "ok",
+  "dup_of": "p41",
+  "amenities": {
+   "pool": false,
+   "gym": false,
+   "bathtub": false,
+   "sea_view": true,
+   "fireplace": false
+  },
+  "sha256": "76a6a4a5ba9770cd"
+ }
+}

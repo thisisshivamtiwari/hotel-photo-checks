@@ -1,0 +1,20 @@
+# Four made-up hotels. Each sends a batch of photos (its 10 source photos plus their edited copies) with a fact sheet.
+# Fact values: true = the hotel has it, false = it doesn't, null = the fact sheet doesn't say (a photo of it can't be
+# confirmed either way, so the right answer is "unknown"). Saltmarrow House is the tuning set; the other three are
+# the test set every reported number comes from.
+saltmarrow-house:
+  split: dev
+  photos: [p01, p02, p36, p37, p38, p19, p20, p10, p16, p33]
+  facts: {pool: false, gym: false, bathtub: true, sea_view: true, fireplace: null}
+wrenquay-rooms:
+  split: test
+  photos: [p06, p07, p11, p17, p21, p22, p39, p26, p27, p34]
+  facts: {pool: false, gym: true, bathtub: false, sea_view: false, fireplace: true}
+tallowgate-court:
+  split: test
+  photos: [p03, p04, p08, p12, p13, p18, p23, p28, p29, p35]
+  facts: {pool: true, gym: null, bathtub: true, sea_view: false, fireplace: false}
+brindlemoor-house:
+  split: test
+  photos: [p05, p09, p15, p24, p25, p30, p31, p32, p40, p41]
+  facts: {pool: null, gym: false, bathtub: null, sea_view: true, fireplace: true}

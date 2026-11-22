@@ -1,0 +1,1298 @@
+{
+ "model": "ViT-B-32/laion2b_s34b_b79k",
+ "prompts": {
+  "pool": "a photo of a swimming pool",
+  "gym": "a photo of a gym with exercise machines",
+  "bathtub": "a photo of a bathroom with a bathtub",
+  "sea_view": "a photo of the sea and a beach",
+  "fireplace": "a photo of a fireplace",
+  "_bedroom": "a photo of a bedroom",
+  "_shower": "a photo of a bathroom with a shower",
+  "_dining": "a photo of a dining room",
+  "_living": "a photo of a living room",
+  "_outside": "a photo of a building from outside"
+ },
+ "photos": {
+  "p01": {
+   "sha256": "4ab38eac2c0a377c",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p01-blur": {
+   "sha256": "999cea97407b15da",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p01-dark": {
+   "sha256": "7efc3474ca64cb2d",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p01-tilt": {
+   "sha256": "00c51763c63b0b09",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p02": {
+   "sha256": "7023dc22cf8085d4",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p02-motion": {
+   "sha256": "329d4f5fd30ac4a8",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p02-bright": {
+   "sha256": "a9310c5183f3c5e5",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p02-dup": {
+   "sha256": "93ea18b81d4d1f3c",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p03": {
+   "sha256": "0864a352d97d285a",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p03-blur": {
+   "sha256": "7ae4ddd7a25c5e02",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p03-dark": {
+   "sha256": "f0bc382fa9a44b50",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p03-tilt": {
+   "sha256": "441677f01b8c751c",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p04": {
+   "sha256": "be4aa8a71a790676",
+   "pool": 0.9983,
+   "gym": 0.0001,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p04-motion": {
+   "sha256": "f9141d95a25d6dfb",
+   "pool": 0.9834,
+   "gym": 0.0002,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p04-bright": {
+   "sha256": "2e86a086dca82abc",
+   "pool": 0.9897,
+   "gym": 0.0007,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p04-dup": {
+   "sha256": "d82d00b4cbb1b2ee",
+   "pool": 0.9996,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p05": {
+   "sha256": "625d259c3e623519",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p05-blur": {
+   "sha256": "605478228e0111d7",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p05-dark": {
+   "sha256": "47661ef367a60b6e",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p05-tilt": {
+   "sha256": "c84faabfa750433f",
+   "pool": 1.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p06": {
+   "sha256": "080cc37e502abe41",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p06-motion": {
+   "sha256": "07ae7eb3f480f0d5",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p06-bright": {
+   "sha256": "2efa454e997522c2",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p06-dup": {
+   "sha256": "a2a412c3b80843c6",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p07": {
+   "sha256": "e42208d0a0a59077",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p07-blur": {
+   "sha256": "464f61c4f7363f76",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p07-dark": {
+   "sha256": "1252e437d69dea71",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p07-tilt": {
+   "sha256": "09a19051a4674b4a",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p08": {
+   "sha256": "2743136b00f6c189",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p08-motion": {
+   "sha256": "0931395bd0e05652",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p08-bright": {
+   "sha256": "bfee519dc1d3188e",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p08-dup": {
+   "sha256": "bc2f66dca9c3d8d3",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p09": {
+   "sha256": "b98d60e326135ea4",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p09-blur": {
+   "sha256": "de145fbc6e896d64",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p09-dark": {
+   "sha256": "e415466e129885e3",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p09-tilt": {
+   "sha256": "a0b7a046b8c49a1a",
+   "pool": 0.0,
+   "gym": 1.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p10": {
+   "sha256": "fa2ae16f49bd196a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9909,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p10-motion": {
+   "sha256": "1a15dd5ecf2088a1",
+   "pool": 0.0002,
+   "gym": 0.0,
+   "bathtub": 0.9972,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p10-bright": {
+   "sha256": "40458e676f2e117d",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.967,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p10-dup": {
+   "sha256": "1dda4a0c027f94f0",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9944,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p11": {
+   "sha256": "63ca751ff49c4055",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.9938,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p11-blur": {
+   "sha256": "087e8e69ec548c92",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.9987,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p11-dark": {
+   "sha256": "6525628a49a30084",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9969,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p11-tilt": {
+   "sha256": "48ee1c20891df994",
+   "pool": 0.0002,
+   "gym": 0.0,
+   "bathtub": 0.9932,
+   "sea_view": 0.0,
+   "fireplace": 0.0002
+  },
+  "p12": {
+   "sha256": "1c3f111eadbb9259",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9961,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p12-motion": {
+   "sha256": "8d17b172317981ff",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9951,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p12-bright": {
+   "sha256": "4f4ebcdf99f539e8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9947,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p12-dup": {
+   "sha256": "a76b0a12e130740a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9979,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p13": {
+   "sha256": "566dc0eb23c5761c",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9624,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p13-blur": {
+   "sha256": "c15c88244a69039e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9975,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p13-dark": {
+   "sha256": "cc8ac0ed99693262",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.98,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p13-tilt": {
+   "sha256": "4eb64e7a34207f21",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.9485,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p15": {
+   "sha256": "7c60a9627cf1f919",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0561,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p15-motion": {
+   "sha256": "4f3f8001a36337c4",
+   "pool": 0.0002,
+   "gym": 0.0,
+   "bathtub": 0.5545,
+   "sea_view": 0.0,
+   "fireplace": 0.0151
+  },
+  "p15-bright": {
+   "sha256": "947d2e0b4aecc092",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0114,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p15-dup": {
+   "sha256": "f627f49961286d63",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.2832,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p16": {
+   "sha256": "2fa3dff06fdb0af2",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0085,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p16-blur": {
+   "sha256": "72ecca5b14e37e73",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0147,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p16-dark": {
+   "sha256": "398ced3d2c6c8336",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0238,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p16-tilt": {
+   "sha256": "0758c3c84de0be89",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0063,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p17": {
+   "sha256": "4c84ecfa227cba99",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.004,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p17-motion": {
+   "sha256": "43062eb5c9b57c7c",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.1612,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p17-bright": {
+   "sha256": "d1e6f7ef1e961da2",
+   "pool": 0.0006,
+   "gym": 0.0,
+   "bathtub": 0.0388,
+   "sea_view": 0.0,
+   "fireplace": 0.0005
+  },
+  "p17-dup": {
+   "sha256": "5ce1a653d27e6628",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0131,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p18": {
+   "sha256": "a18cfb2b76cac5f1",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0221,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p18-blur": {
+   "sha256": "0e5658b0404c8ee7",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0179,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p18-dark": {
+   "sha256": "a02f08a21f22b28e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.025,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p18-tilt": {
+   "sha256": "957c484239fbd791",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.018,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p19": {
+   "sha256": "71644a616ecbc1ef",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.001,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p19-motion": {
+   "sha256": "8d65c07199ce847a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0005,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p19-bright": {
+   "sha256": "59a48c82feb6399a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p19-dup": {
+   "sha256": "38549aba84f289e1",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0009,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p20": {
+   "sha256": "539aa3535e461229",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0006,
+   "sea_view": 0.0,
+   "fireplace": 0.0008
+  },
+  "p20-blur": {
+   "sha256": "6c2e15091887882d",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0002,
+   "sea_view": 0.0,
+   "fireplace": 0.0005
+  },
+  "p20-dark": {
+   "sha256": "9e32be4028a2bee4",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0008
+  },
+  "p20-tilt": {
+   "sha256": "275dd48582f4a356",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0002
+  },
+  "p21": {
+   "sha256": "226ab15db5a25b5e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0006
+  },
+  "p21-motion": {
+   "sha256": "4f49585cf99befdf",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0002,
+   "sea_view": 0.0,
+   "fireplace": 0.0009
+  },
+  "p21-bright": {
+   "sha256": "cb9d4133898a8d78",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p21-dup": {
+   "sha256": "ce8c600f9dd9bf95",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0008
+  },
+  "p22": {
+   "sha256": "412d7515a2127bf0",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0021,
+   "sea_view": 0.0,
+   "fireplace": 0.0003
+  },
+  "p22-blur": {
+   "sha256": "11d6b2820df5a713",
+   "pool": 0.0,
+   "gym": 0.0001,
+   "bathtub": 0.0003,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p22-dark": {
+   "sha256": "1776a5f10a943ed7",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.0023,
+   "sea_view": 0.0,
+   "fireplace": 0.0018
+  },
+  "p22-tilt": {
+   "sha256": "32a5b4df06b83811",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.0015,
+   "sea_view": 0.0,
+   "fireplace": 0.0025
+  },
+  "p23": {
+   "sha256": "157055fd11ba72fd",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.002,
+   "sea_view": 0.0,
+   "fireplace": 0.4933
+  },
+  "p23-motion": {
+   "sha256": "f314dd3e13787588",
+   "pool": 0.0006,
+   "gym": 0.0012,
+   "bathtub": 0.0002,
+   "sea_view": 0.0,
+   "fireplace": 0.8824
+  },
+  "p23-bright": {
+   "sha256": "d7b2226fbd52e01a",
+   "pool": 0.0001,
+   "gym": 0.0,
+   "bathtub": 0.0008,
+   "sea_view": 0.0,
+   "fireplace": 0.5059
+  },
+  "p23-dup": {
+   "sha256": "8d6031a34716eeb3",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0013,
+   "sea_view": 0.0,
+   "fireplace": 0.3574
+  },
+  "p24": {
+   "sha256": "6585974f134b8c3e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p24-blur": {
+   "sha256": "08b31c4797b2820a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p24-dark": {
+   "sha256": "441c8bc10f787c6b",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0001,
+   "sea_view": 0.0,
+   "fireplace": 0.0002
+  },
+  "p24-tilt": {
+   "sha256": "e8d206f1dde715c8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p25": {
+   "sha256": "e4108a9d795f1100",
+   "pool": 0.0002,
+   "gym": 0.0,
+   "bathtub": 0.0132,
+   "sea_view": 0.0,
+   "fireplace": 0.0017
+  },
+  "p25-motion": {
+   "sha256": "107571c2d925d769",
+   "pool": 0.0102,
+   "gym": 0.0045,
+   "bathtub": 0.0232,
+   "sea_view": 0.0,
+   "fireplace": 0.2657
+  },
+  "p25-bright": {
+   "sha256": "2b777c46b386ff5d",
+   "pool": 0.0001,
+   "gym": 0.0001,
+   "bathtub": 0.0097,
+   "sea_view": 0.0,
+   "fireplace": 0.0004
+  },
+  "p25-dup": {
+   "sha256": "30db4b4a06ea2561",
+   "pool": 0.0003,
+   "gym": 0.0,
+   "bathtub": 0.0041,
+   "sea_view": 0.0,
+   "fireplace": 0.0018
+  },
+  "p26": {
+   "sha256": "459cd67360ded18a",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9999
+  },
+  "p26-blur": {
+   "sha256": "63481d4ca413e577",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9997
+  },
+  "p26-dark": {
+   "sha256": "066736a5e738c1b8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9999
+  },
+  "p26-tilt": {
+   "sha256": "efa7661c62d58936",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9999
+  },
+  "p27": {
+   "sha256": "6db27092531d8634",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9972
+  },
+  "p27-motion": {
+   "sha256": "20afa00637651d25",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9996
+  },
+  "p27-bright": {
+   "sha256": "ea0136c20fbcd556",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.993
+  },
+  "p27-dup": {
+   "sha256": "5affc7088b6bd372",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9938
+  },
+  "p28": {
+   "sha256": "b5399069b6c2231b",
+   "pool": 0.0,
+   "gym": 0.0001,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.7449
+  },
+  "p28-blur": {
+   "sha256": "d2c45a885cc4c644",
+   "pool": 0.0,
+   "gym": 0.0041,
+   "bathtub": 0.0003,
+   "sea_view": 0.0,
+   "fireplace": 0.9035
+  },
+  "p28-dark": {
+   "sha256": "7d029a79f73d5f27",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.8868
+  },
+  "p28-tilt": {
+   "sha256": "9bf0c7006b29e55c",
+   "pool": 0.0,
+   "gym": 0.0003,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9227
+  },
+  "p29": {
+   "sha256": "f9567504f207c850",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0595
+  },
+  "p29-motion": {
+   "sha256": "24c357fecdab3696",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0002,
+   "sea_view": 0.0,
+   "fireplace": 0.4642
+  },
+  "p29-bright": {
+   "sha256": "53deaf6cc4b64e96",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.5878
+  },
+  "p29-dup": {
+   "sha256": "2ab24c98ed3e6481",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.1139
+  },
+  "p30": {
+   "sha256": "bf72ea5126514a4e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0012
+  },
+  "p30-blur": {
+   "sha256": "c0fd02e15d6c732c",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0004
+  },
+  "p30-dark": {
+   "sha256": "2409a88a0b52d4ef",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0009
+  },
+  "p30-tilt": {
+   "sha256": "e2fd855643edb531",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0128
+  },
+  "p31": {
+   "sha256": "160d9784e6f70ef5",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9997
+  },
+  "p31-motion": {
+   "sha256": "adea731f015a604b",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.979
+  },
+  "p31-bright": {
+   "sha256": "9668a9d4f1e93296",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9996
+  },
+  "p31-dup": {
+   "sha256": "9c12bd310ce34b42",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9991
+  },
+  "p32": {
+   "sha256": "676672c975949afa",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.4601
+  },
+  "p32-blur": {
+   "sha256": "c0fc1a24f3169f45",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.8351
+  },
+  "p32-dark": {
+   "sha256": "89c3d5bfb6812bde",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.136
+  },
+  "p32-tilt": {
+   "sha256": "b6b75f3f682b1ca8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.9932
+  },
+  "p33": {
+   "sha256": "bdefe1866875ac36",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p33-motion": {
+   "sha256": "15b4e2fbb4fce664",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p33-bright": {
+   "sha256": "cfed797dd6de2c90",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p33-dup": {
+   "sha256": "c5e946d77f368670",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p34": {
+   "sha256": "0c99540446926e20",
+   "pool": 0.0002,
+   "gym": 0.0006,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p34-blur": {
+   "sha256": "33011959de9d5014",
+   "pool": 0.0002,
+   "gym": 0.001,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p34-dark": {
+   "sha256": "012fcf597d31236f",
+   "pool": 0.0001,
+   "gym": 0.0015,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p34-tilt": {
+   "sha256": "f9afac9f5f6b638f",
+   "pool": 0.0004,
+   "gym": 0.0261,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p35": {
+   "sha256": "b4aab0426259689e",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0001
+  },
+  "p35-motion": {
+   "sha256": "f4dc0b1e874331e2",
+   "pool": 0.0052,
+   "gym": 0.3993,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0392
+  },
+  "p35-bright": {
+   "sha256": "a53bc0109186eff9",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0005
+  },
+  "p35-dup": {
+   "sha256": "c3e774d723368285",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.0,
+   "fireplace": 0.0
+  },
+  "p36": {
+   "sha256": "6e6d61a5d3ebc807",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p36-blur": {
+   "sha256": "9a7fdd1b56fee67b",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p36-dark": {
+   "sha256": "a8dc8b24fef4e486",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p36-tilt": {
+   "sha256": "3887f92106dcde57",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p37": {
+   "sha256": "864b8698f432ac24",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p37-motion": {
+   "sha256": "1a24c00f79193cf8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p37-bright": {
+   "sha256": "a16b438894f632c7",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p37-dup": {
+   "sha256": "f4659b7c65ade54f",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p38": {
+   "sha256": "3784fe8cfafa4ee6",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p38-blur": {
+   "sha256": "58c02a84dfeb5f3f",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p38-dark": {
+   "sha256": "fa24def8ca6d2171",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p38-tilt": {
+   "sha256": "d4be0c3098eaf0ef",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p39": {
+   "sha256": "89a2efc0a3ff7313",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p39-motion": {
+   "sha256": "44810850fb895029",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p39-bright": {
+   "sha256": "25f84e7c0d3bc782",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p39-dup": {
+   "sha256": "743264427e2c1d46",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p40": {
+   "sha256": "3a0e86b58329eea7",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p40-blur": {
+   "sha256": "62f2211b00ac5b60",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p40-dark": {
+   "sha256": "7c544013f8e80ad8",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p40-tilt": {
+   "sha256": "d1dfc9448de53a09",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p41": {
+   "sha256": "8308c4f3e7338493",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p41-motion": {
+   "sha256": "2833bcaa418cb2d0",
+   "pool": 0.001,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 0.9989,
+   "fireplace": 0.0
+  },
+  "p41-bright": {
+   "sha256": "6c80532c1ca7a209",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  },
+  "p41-dup": {
+   "sha256": "76a6a4a5ba9770cd",
+   "pool": 0.0,
+   "gym": 0.0,
+   "bathtub": 0.0,
+   "sea_view": 1.0,
+   "fireplace": 0.0
+  }
+ },
+ "seconds_per_photo": 0.033
+}

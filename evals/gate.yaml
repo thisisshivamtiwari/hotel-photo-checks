@@ -1,0 +1,19 @@
+# Pre-registered gate, written 22 Nov 2026 before any test-hotel result was computed (see git history: this file is
+# committed before results/summary.json exists). CI fails if the replayed run breaks a rule. Arm names as in
+# results/summary.json; "bad" = a photo with a blur, exposure or framing defect.
+arm: both-sonnet
+rules:
+  - id: fewer-bad-through-than-rules
+    what: the combined checker lets fewer bad photos through as "ready" than the rules alone
+  - id: bad-through-at-most-10pct
+    what: at most 10% of bad photos come out "ready"
+    max_share: 0.10
+  - id: contradictions-caught-80pct
+    what: catches at least 80% of photos that show an amenity the fact sheet says the hotel doesn't have
+    min_share: 0.80
+  - id: false-contradictions-at-most-3
+    what: at most 3 false contradictions (says a photo shows something it doesn't) across the 120 test photos
+    max_count: 3
+  - id: good-ready-at-least-half
+    what: at least half of the good photos come out "ready" (a checker that sends everything to a person is useless)
+    min_share: 0.50
