@@ -49,6 +49,10 @@ def main(argv: list[str]) -> int:
             problems.append("replay no longer reproduces results/summary.json")
         print("ci:", "pass" if not problems else problems)
         return 1 if problems else 0
+    elif cmd == "demo":
+        from . import demo
+
+        demo.run(float(argv[argv.index("--pause") + 1]) if "--pause" in argv else 0.6)
     elif cmd == "check":
         import yaml
 

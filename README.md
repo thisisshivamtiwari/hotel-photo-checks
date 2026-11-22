@@ -194,6 +194,7 @@ Test set: 120 photos from the three test hotels (75 with a blur, exposure or til
 ```bash
 uv sync                                   # Python 3.12
 uv run pytest -q                          # gate, broken inputs, merge and parse rules
+uv run python -m photo_checks demo        # short walk-through of recorded results
 uv run python -m photo_checks ci          # replays the recorded model calls: reproduces results/summary.json, applies the gate
 uv run python -m photo_checks check data/photos/set --facts some-hotel.yaml   # rules on any folder; add --llm sonnet-5.5 to call Claude
 ```

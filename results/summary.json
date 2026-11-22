@@ -27,7 +27,7 @@
  "cost": {
   "rules": {
    "usd": 0.0,
-   "seconds": 0.044
+   "seconds": 0.045
   },
   "haiku-4.5": {
    "usd": 0.00473,
@@ -36,11 +36,11 @@
   },
   "both-haiku": {
    "usd": 0.00473,
-   "seconds": 7.11
+   "seconds": 7.12
   },
   "strict-haiku": {
    "usd": 0.00473,
-   "seconds": 7.11
+   "seconds": 7.12
   },
   "sonnet-5.5": {
    "usd": 0.00632,
@@ -49,11 +49,11 @@
   },
   "both-sonnet": {
    "usd": 0.00632,
-   "seconds": 2.74
+   "seconds": 2.75
   },
   "strict-sonnet": {
    "usd": 0.00632,
-   "seconds": 2.74
+   "seconds": 2.75
   }
  },
  "arms": {
