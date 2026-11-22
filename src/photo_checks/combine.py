@@ -18,6 +18,12 @@ def merge(a, b, unknown="unknown"):
     return unknown
 
 
+def merge_strict(a, b, unknown="unknown"):
+    """Post-hoc variant (added after the first test run, see README): only an agreed answer counts; if either side
+    can't tell, the photo goes to a person."""
+    return a if a == b else unknown
+
+
 def clip_amenities(scores: dict, th: dict) -> dict:
     """yes / no / unknown (True / False / None) from a CLIP probability, with the shared relative band."""
     out = {}
@@ -28,8 +34,8 @@ def clip_amenities(scores: dict, th: dict) -> dict:
     return out
 
 
-def merge_amenities(a: dict, b: dict) -> dict:
-    return {k: merge(a.get(k), b.get(k), unknown=None) for k in AMENITIES}
+def merge_amenities(a: dict, b: dict, how=merge) -> dict:
+    return {k: how(a.get(k), b.get(k), unknown=None) for k in AMENITIES}
 
 
 def contradiction(seen, fact):

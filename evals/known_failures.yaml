@@ -1,0 +1,10 @@
+# Pre-registered rules (evals/gate.yaml) that the first full test run broke. They stay in gate.yaml unchanged; CI
+# fails if any other rule breaks, or if one of these starts passing or failing differently without this file and the
+# README being updated.
+- id: fewer-bad-through-than-rules
+  first_run: 2026-11-22
+  result: "Rules + Sonnet passed 4/75 bad photos as ready, the rules alone 2/75 (p=0.625, McNemar)"
+  why: >-
+    The merge takes the other side's answer when one side can't tell. Twice the rules had no tilt reading inside their
+    unknown band and Sonnet said "ok" on a tilted photo; twice both sides passed an over-exposed photo. A stricter
+    merge (only agreed answers count) was added afterwards and is reported separately as post hoc.

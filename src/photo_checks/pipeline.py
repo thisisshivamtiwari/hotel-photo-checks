@@ -43,12 +43,23 @@ def check_photo(path: Path, facts: dict | None, th: dict, llm: LlmFn | None = No
         pred = {c: combine.merge(r[c], p[c]) for c in combine.TECH}
         pred["amenities"] = combine.merge_amenities(r["amenities"], p["amenities"]) if clip_scores else p["amenities"]
         pred["llm_parsed"] = p["parsed"]
-    facts = facts or {}  # no fact sheet: every amenity is unverifiable, never "consistent"
-    pred["facts"] = {a: combine.contradiction(pred["amenities"].get(a), facts.get(a)) for a in AMENITIES}
+    has_detector = bool(clip_scores) or llm is not None
     problems = [c for c in combine.TECH if pred[c] not in ("ok", "unknown")]
-    problems += [f"shows {a} but the fact sheet says no" for a, v in pred["facts"].items() if v == "contradiction"]
     unknowns = [c for c in combine.TECH if pred[c] == "unknown"]
-    unknowns += [f"{a}: {v}" for a, v in pred["facts"].items() if v in ("unverifiable", "cant_tell") and facts.get(a) is not True]
+    if not has_detector:
+        pred["facts"] = "not checked (no amenity detector: pass --llm)"
+        if facts:
+            unknowns.append("fact sheet not checked")
+    else:
+        sheet = facts or {}  # no fact sheet: every amenity seen is unverifiable, never "consistent"
+        pred["facts"] = {a: combine.contradiction(pred["amenities"].get(a), sheet.get(a)) for a in AMENITIES}
+        for a, v in pred["facts"].items():
+            if v == "contradiction":
+                problems.append(f"shows {a} but the fact sheet says no")
+            elif v == "unverifiable":
+                unknowns.append(f"shows {a}, which the fact sheet doesn't mention")
+            elif v == "cant_tell" and sheet.get(a) is False:
+                unknowns.append(f"can't tell whether it shows {a} (the fact sheet says no)")
     verdict = "fix" if problems else "person" if unknowns else "ready"
     return {"photo": Path(path).name, "verdict": verdict, "problems": problems, "unknowns": unknowns, "checks": pred,
             "phash": rules.phash(loaded.img)}  # fmt: skip

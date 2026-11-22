@@ -51,3 +51,17 @@ def test_contradiction_flagged():
 
     r = pipeline.check_photo(rules.ROOT / "data/photos/set/p03.jpg", {"pool": False}, TH, llm=sees_pool)
     assert r["verdict"] == "fix" and any("pool" in p for p in r["problems"])
+
+
+def test_rules_only_doesnt_send_everything_to_a_person():
+    r = pipeline.check_photo(rules.ROOT / "data/photos/set/p19.jpg", None, TH)
+    assert r["checks"]["facts"].startswith("not checked")
+    assert not any("cant" in u or "can't" in u for u in r["unknowns"])
+
+
+def test_cant_tell_matters_only_where_the_sheet_says_no():
+    def blind(_path):
+        return vlm.parse('{"blur":"ok","exposure":"ok","framing":"ok","amenities":{}}')
+
+    r = pipeline.check_photo(rules.ROOT / "data/photos/set/p19.jpg", {"pool": False, "gym": True}, TH, llm=blind)
+    assert any("pool" in u for u in r["unknowns"]) and not any("gym" in u for u in r["unknowns"])

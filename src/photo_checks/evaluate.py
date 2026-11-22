@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SET = ROOT / "data" / "photos" / "set"
 RESULTS = ROOT / "results"
 LLMS = ["haiku-4.5", "sonnet-5.5"]
-ARMS = ["rules", "haiku-4.5", "sonnet-5.5", "both-haiku", "both-sonnet"]
+ARMS = ["rules", "haiku-4.5", "sonnet-5.5", "both-haiku", "both-sonnet", "strict-haiku", "strict-sonnet"]  # strict-*: post hoc
 
 
 def mcnemar_p(b: int, c: int) -> float:
@@ -52,15 +52,21 @@ def predictions(labels: dict, retune: bool = False) -> tuple[dict, dict, dict]:
             usd, ms = usd + rec["cost_usd"], ms + rec["ms"]
             preds[m][n] = p
             r = preds["rules"][n]
-            preds[f"both-{m.split('-')[0]}"][n] = {
+            short = m.split("-")[0]
+            preds[f"both-{short}"][n] = {
                 **{c: combine.merge(r[c], p[c]) for c in combine.TECH},
                 "amenities": combine.merge_amenities(r["amenities"], p["amenities"]),
             }
+            preds[f"strict-{short}"][n] = {
+                **{c: combine.merge_strict(r[c], p[c]) for c in combine.TECH},
+                "amenities": combine.merge_amenities(r["amenities"], p["amenities"], combine.merge_strict),
+            }
         cost[m] = {"usd": round(usd / len(labels), 5), "seconds": round(ms / len(labels) / 1000, 2), "unparsed": unparsed}
-        cost[f"both-{m.split('-')[0]}"] = {
-            "usd": cost[m]["usd"],
-            "seconds": round(cost[m]["seconds"] + cost["rules"]["seconds"], 2),
-        }
+        for kind in ("both", "strict"):
+            cost[f"{kind}-{m.split('-')[0]}"] = {
+                "usd": cost[m]["usd"],
+                "seconds": round(cost[m]["seconds"] + cost["rules"]["seconds"], 2),
+            }
     return preds, {"thresholds": th, "measures": meas, "hashes": hashes}, cost
 
 
@@ -208,7 +214,7 @@ def run(retune: bool = False) -> dict:
     bad = [n for n in test if any(labels[n][c] != "ok" for c in combine.TECH)]
     pairs = {}
     for a, b in [("rules", "sonnet-5.5"), ("rules", "haiku-4.5"), ("sonnet-5.5", "both-sonnet"), ("haiku-4.5", "both-haiku"),
-                 ("rules", "both-sonnet")]:  # fmt: skip
+                 ("rules", "both-sonnet"), ("both-sonnet", "strict-sonnet"), ("rules", "strict-sonnet")]:  # fmt: skip
         only_a = sum(verdicts[a][n] == "ready" and verdicts[b][n] != "ready" for n in bad)
         only_b = sum(verdicts[b][n] == "ready" and verdicts[a][n] != "ready" for n in bad)
         pairs[f"{a} vs {b}"] = {

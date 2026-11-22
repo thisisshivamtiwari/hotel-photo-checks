@@ -100,7 +100,7 @@ def phash(img: Image.Image) -> str:
 
 
 def hamming(a: str, b: str) -> int:
-    return imagehash.hex_to_hash(a) - imagehash.hex_to_hash(b)
+    return int(imagehash.hex_to_hash(a) - imagehash.hex_to_hash(b))
 
 
 def thresholds() -> dict:

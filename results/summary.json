@@ -1,0 +1,1159 @@
+{
+ "test_photos": 120,
+ "test_hotels": [
+  "wrenquay-rooms",
+  "tallowgate-court",
+  "brindlemoor-house"
+ ],
+ "thresholds": {
+  "blur_laplacian": 138.11,
+  "dark_mean": 0.29,
+  "bright_clip": 0.14,
+  "tilt_deg": 5.9,
+  "clip_yes": 0.465,
+  "band": 0.25,
+  "dup_max_bits": 6,
+  "dup_unknown_bits": 4,
+  "dev_balanced_accuracy": {
+   "blur": 0.983,
+   "dark": 1.0,
+   "bright": 1.0,
+   "tilt": 0.95,
+   "clip_yes": 1.0
+  },
+  "dev_images": 40,
+  "dev_images_with_tilt_reading": 12
+ },
+ "cost": {
+  "rules": {
+   "usd": 0.0,
+   "seconds": 0.044
+  },
+  "haiku-4.5": {
+   "usd": 0.00473,
+   "seconds": 7.07,
+   "unparsed": 0
+  },
+  "both-haiku": {
+   "usd": 0.00473,
+   "seconds": 7.11
+  },
+  "strict-haiku": {
+   "usd": 0.00473,
+   "seconds": 7.11
+  },
+  "sonnet-5.5": {
+   "usd": 0.00632,
+   "seconds": 2.7,
+   "unparsed": 0
+  },
+  "both-sonnet": {
+   "usd": 0.00632,
+   "seconds": 2.74
+  },
+  "strict-sonnet": {
+   "usd": 0.00632,
+   "seconds": 2.74
+  }
+ },
+ "arms": {
+  "rules": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 2,
+    "bad_to_person": 8,
+    "bad_flagged": 65,
+    "good_photos": 45,
+    "good_ready": 22,
+    "good_to_person": 19,
+    "good_flagged": 4
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 7,
+     "unknown_on_fine": 5
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 28,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 1,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 11
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 7,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 7,
+     "fine": 105,
+     "false_alarm": 1,
+     "unknown_on_fine": 65
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 119,
+     "wrong": 0,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 116,
+     "wrong": 3,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 3
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 107,
+     "wrong": 8,
+     "unknown": 5,
+     "false_yes": 1,
+     "false_no": 7
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 17,
+    "missed": 2,
+    "cant_tell": 1,
+    "false_contradictions": 1,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 8,
+    "naive_confirmed": 8,
+    "examples_missed": [
+     "p29:fireplace",
+     "p29-dup:fireplace"
+    ],
+    "examples_false": [
+     "p23-motion:fireplace"
+    ]
+   }
+  },
+  "haiku-4.5": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 35,
+    "bad_to_person": 0,
+    "bad_flagged": 40,
+    "good_photos": 45,
+    "good_ready": 44,
+    "good_to_person": 0,
+    "good_flagged": 1
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 5,
+     "unknown_on_fine": 0
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 8,
+     "missed": 22,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 9,
+     "unknown_on_fine": 0
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 1,
+     "missed": 14,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 105,
+     "false_alarm": 17,
+     "unknown_on_fine": 0
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 118,
+     "wrong": 0,
+     "unknown": 2,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 107,
+     "wrong": 0,
+     "unknown": 13,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 110,
+     "wrong": 0,
+     "unknown": 10,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 102,
+     "wrong": 1,
+     "unknown": 17,
+     "false_yes": 1,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 111,
+     "wrong": 2,
+     "unknown": 7,
+     "false_yes": 0,
+     "false_no": 2
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 17,
+    "missed": 2,
+    "cant_tell": 1,
+    "false_contradictions": 1,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 12,
+    "naive_confirmed": 12,
+    "examples_missed": [
+     "p28-blur:fireplace",
+     "p28-tilt:fireplace"
+    ],
+    "examples_false": [
+     "p22:sea_view"
+    ]
+   }
+  },
+  "sonnet-5.5": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 14,
+    "bad_to_person": 1,
+    "bad_flagged": 60,
+    "good_photos": 45,
+    "good_ready": 41,
+    "good_to_person": 1,
+    "good_flagged": 3
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 0
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 21,
+     "missed": 9,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 3,
+     "unknown_on_fine": 0
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 8,
+     "missed": 6,
+     "wrong_kind": 0,
+     "unknown_on_problem": 1,
+     "fine": 105,
+     "false_alarm": 3,
+     "unknown_on_fine": 17
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 119,
+     "wrong": 0,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 117,
+     "wrong": 0,
+     "unknown": 3,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 103,
+     "wrong": 0,
+     "unknown": 17,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 102,
+     "wrong": 0,
+     "unknown": 18,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 108,
+     "wrong": 0,
+     "unknown": 12,
+     "false_yes": 0,
+     "false_no": 0
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 20,
+    "missed": 0,
+    "cant_tell": 0,
+    "false_contradictions": 0,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 11,
+    "naive_confirmed": 11,
+    "examples_missed": [],
+    "examples_false": []
+   }
+  },
+  "both-haiku": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 8,
+    "bad_to_person": 28,
+    "bad_flagged": 39,
+    "good_photos": 45,
+    "good_ready": 40,
+    "good_to_person": 5,
+    "good_flagged": 0
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 2,
+     "unknown_on_fine": 8
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 8,
+     "missed": 2,
+     "wrong_kind": 0,
+     "unknown_on_problem": 20,
+     "fine": 90,
+     "false_alarm": 2,
+     "unknown_on_fine": 7
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 1,
+     "missed": 7,
+     "wrong_kind": 0,
+     "unknown_on_problem": 7,
+     "fine": 105,
+     "false_alarm": 16,
+     "unknown_on_fine": 2
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 119,
+     "wrong": 0,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 117,
+     "wrong": 0,
+     "unknown": 3,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 119,
+     "wrong": 0,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 109,
+     "wrong": 1,
+     "unknown": 10,
+     "false_yes": 0,
+     "false_no": 1
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 15,
+    "missed": 0,
+    "cant_tell": 5,
+    "false_contradictions": 0,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 9,
+    "naive_confirmed": 9,
+    "examples_missed": [],
+    "examples_false": []
+   }
+  },
+  "both-sonnet": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 4,
+    "bad_to_person": 12,
+    "bad_flagged": 59,
+    "good_photos": 45,
+    "good_ready": 37,
+    "good_to_person": 6,
+    "good_flagged": 2
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 7
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 21,
+     "missed": 2,
+     "wrong_kind": 0,
+     "unknown_on_problem": 7,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 3
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 8,
+     "missed": 3,
+     "wrong_kind": 0,
+     "unknown_on_problem": 4,
+     "fine": 105,
+     "false_alarm": 2,
+     "unknown_on_fine": 19
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 117,
+     "wrong": 1,
+     "unknown": 2,
+     "false_yes": 0,
+     "false_no": 1
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 120,
+     "wrong": 0,
+     "unknown": 0,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 112,
+     "wrong": 0,
+     "unknown": 8,
+     "false_yes": 0,
+     "false_no": 0
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 18,
+    "missed": 0,
+    "cant_tell": 2,
+    "false_contradictions": 0,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 9,
+    "naive_confirmed": 9,
+    "examples_missed": [],
+    "examples_false": []
+   }
+  },
+  "strict-haiku": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 2,
+    "bad_to_person": 35,
+    "bad_flagged": 38,
+    "good_photos": 45,
+    "good_ready": 22,
+    "good_to_person": 23,
+    "good_flagged": 0
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 2,
+     "unknown_on_fine": 13
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 8,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 21,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 18
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 0,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 14,
+     "fine": 105,
+     "false_alarm": 0,
+     "unknown_on_fine": 67
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 118,
+     "wrong": 0,
+     "unknown": 2,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 107,
+     "wrong": 0,
+     "unknown": 13,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 106,
+     "wrong": 0,
+     "unknown": 14,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 102,
+     "wrong": 0,
+     "unknown": 18,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 100,
+     "wrong": 0,
+     "unknown": 20,
+     "false_yes": 0,
+     "false_no": 0
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 15,
+    "missed": 0,
+    "cant_tell": 5,
+    "false_contradictions": 0,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 8,
+    "naive_confirmed": 8,
+    "examples_missed": [],
+    "examples_false": []
+   }
+  },
+  "strict-sonnet": {
+   "gate": {
+    "bad_photos": 75,
+    "bad_let_through": 1,
+    "bad_to_person": 19,
+    "bad_flagged": 55,
+    "good_photos": 45,
+    "good_ready": 21,
+    "good_to_person": 24,
+    "good_flagged": 0
+   },
+   "checks": {
+    "blur": {
+     "problems": 30,
+     "caught": 30,
+     "missed": 0,
+     "wrong_kind": 0,
+     "unknown_on_problem": 0,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 12
+    },
+    "exposure": {
+     "problems": 30,
+     "caught": 21,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 8,
+     "fine": 90,
+     "false_alarm": 0,
+     "unknown_on_fine": 14
+    },
+    "framing": {
+     "problems": 15,
+     "caught": 4,
+     "missed": 1,
+     "wrong_kind": 0,
+     "unknown_on_problem": 10,
+     "fine": 105,
+     "false_alarm": 0,
+     "unknown_on_fine": 67
+    }
+   },
+   "amenities": {
+    "pool": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 119,
+     "wrong": 0,
+     "unknown": 1,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "gym": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 116,
+     "wrong": 0,
+     "unknown": 4,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "bathtub": {
+     "shown": 16,
+     "absent": 104,
+     "correct": 100,
+     "wrong": 0,
+     "unknown": 20,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "sea_view": {
+     "shown": 12,
+     "absent": 108,
+     "correct": 102,
+     "wrong": 0,
+     "unknown": 18,
+     "false_yes": 0,
+     "false_no": 0
+    },
+    "fireplace": {
+     "shown": 28,
+     "absent": 92,
+     "correct": 95,
+     "wrong": 0,
+     "unknown": 25,
+     "false_yes": 0,
+     "false_no": 0
+    }
+   },
+   "contradictions": {
+    "expected": 20,
+    "caught": 17,
+    "missed": 0,
+    "cant_tell": 3,
+    "false_contradictions": 0,
+    "unverifiable_expected": 12,
+    "unverifiable_given": 8,
+    "naive_confirmed": 8,
+    "examples_missed": [],
+    "examples_false": []
+   }
+  }
+ },
+ "duplicates": {
+  "pairs": 2175,
+  "true_pairs": 15,
+  "caught": 6,
+  "possible": 8,
+  "missed": 1,
+  "false_pairs": 0,
+  "false_possible": 0,
+  "excluded_same_shot_edits": 165,
+  "hard_pairs": {
+   "p03~p04": {
+    "bits": 36,
+    "call": "no"
+   },
+   "p26~p27": {
+    "bits": 26,
+    "call": "no"
+   }
+  }
+ },
+ "paired_bad_let_through": {
+  "rules vs sonnet-5.5": {
+   "only_first_lets_through": 1,
+   "only_second_lets_through": 13,
+   "p": 0.0018
+  },
+  "rules vs haiku-4.5": {
+   "only_first_lets_through": 0,
+   "only_second_lets_through": 33,
+   "p": 0.0
+  },
+  "sonnet-5.5 vs both-sonnet": {
+   "only_first_lets_through": 10,
+   "only_second_lets_through": 0,
+   "p": 0.002
+  },
+  "haiku-4.5 vs both-haiku": {
+   "only_first_lets_through": 27,
+   "only_second_lets_through": 0,
+   "p": 0.0
+  },
+  "rules vs both-sonnet": {
+   "only_first_lets_through": 1,
+   "only_second_lets_through": 3,
+   "p": 0.625
+  },
+  "both-sonnet vs strict-sonnet": {
+   "only_first_lets_through": 3,
+   "only_second_lets_through": 0,
+   "p": 0.25
+  },
+  "rules vs strict-sonnet": {
+   "only_first_lets_through": 1,
+   "only_second_lets_through": 0,
+   "p": 1.0
+  }
+ },
+ "verdict_by_edit": {
+  "rules": {
+   "none": {
+    "n": 30,
+    "ready": 16,
+    "person": 13,
+    "fix": 1
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 1,
+    "person": 7,
+    "fix": 7
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 1,
+    "person": 1,
+    "fix": 13
+   },
+   "dup": {
+    "n": 15,
+    "ready": 6,
+    "person": 6,
+    "fix": 3
+   }
+  },
+  "haiku-4.5": {
+   "none": {
+    "n": 30,
+    "ready": 29,
+    "person": 0,
+    "fix": 1
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 9,
+    "person": 0,
+    "fix": 6
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 13,
+    "person": 0,
+    "fix": 2
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 13,
+    "person": 0,
+    "fix": 2
+   },
+   "dup": {
+    "n": 15,
+    "ready": 15,
+    "person": 0,
+    "fix": 0
+   }
+  },
+  "sonnet-5.5": {
+   "none": {
+    "n": 30,
+    "ready": 27,
+    "person": 1,
+    "fix": 2
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 1,
+    "person": 0,
+    "fix": 14
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 5,
+    "person": 1,
+    "fix": 9
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 8,
+    "person": 0,
+    "fix": 7
+   },
+   "dup": {
+    "n": 15,
+    "ready": 14,
+    "person": 0,
+    "fix": 1
+   }
+  },
+  "both-haiku": {
+   "none": {
+    "n": 30,
+    "ready": 28,
+    "person": 2,
+    "fix": 0
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 0,
+    "person": 9,
+    "fix": 6
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 6,
+    "person": 8,
+    "fix": 1
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 2,
+    "person": 11,
+    "fix": 2
+   },
+   "dup": {
+    "n": 15,
+    "ready": 12,
+    "person": 3,
+    "fix": 0
+   }
+  },
+  "both-sonnet": {
+   "none": {
+    "n": 30,
+    "ready": 26,
+    "person": 3,
+    "fix": 1
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 0,
+    "person": 1,
+    "fix": 14
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 2,
+    "person": 5,
+    "fix": 8
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 2,
+    "person": 6,
+    "fix": 7
+   },
+   "dup": {
+    "n": 15,
+    "ready": 11,
+    "person": 3,
+    "fix": 1
+   }
+  },
+  "strict-haiku": {
+   "none": {
+    "n": 30,
+    "ready": 16,
+    "person": 14,
+    "fix": 0
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 0,
+    "person": 9,
+    "fix": 6
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 1,
+    "person": 14,
+    "fix": 0
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 1,
+    "person": 12,
+    "fix": 2
+   },
+   "dup": {
+    "n": 15,
+    "ready": 6,
+    "person": 9,
+    "fix": 0
+   }
+  },
+  "strict-sonnet": {
+   "none": {
+    "n": 30,
+    "ready": 15,
+    "person": 15,
+    "fix": 0
+   },
+   "blur": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "dark": {
+    "n": 15,
+    "ready": 0,
+    "person": 1,
+    "fix": 14
+   },
+   "tilt": {
+    "n": 15,
+    "ready": 0,
+    "person": 11,
+    "fix": 4
+   },
+   "motion": {
+    "n": 15,
+    "ready": 0,
+    "person": 0,
+    "fix": 15
+   },
+   "bright": {
+    "n": 15,
+    "ready": 1,
+    "person": 7,
+    "fix": 7
+   },
+   "dup": {
+    "n": 15,
+    "ready": 6,
+    "person": 9,
+    "fix": 0
+   }
+  }
+ }
+}

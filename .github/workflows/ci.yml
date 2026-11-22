@@ -1,0 +1,29 @@
+# Lint, tests and the eval gate. The gate reruns the image rules, reads the saved CLIP scores (hash-checked against
+# the photos) and replays the recorded vision-LLM replies (cassettes/), so it needs no API key and no torch. It fails
+# if the run no longer reproduces results/summary.json, or breaks a rule in evals/gate.yaml that isn't recorded in
+# evals/known_failures.yaml.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Install
+        run: uv sync --locked
+      - name: Lint
+        run: uv run ruff check . && uv run ruff format --check .
+      - name: Tests
+        run: uv run pytest -q
+      - name: Eval gate (replay)
+        run: uv run python -m photo_checks ci
