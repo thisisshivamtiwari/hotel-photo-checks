@@ -26,7 +26,8 @@ separately and never folded into one score.
 ## Approach
 
 ```
-photo ──▶ gate: exists? non-empty? decodes? at least 200 px? (CMYK, 16-bit, alpha, WebP, EXIF rotation handled)
+photo ──▶ gate: exists? non-empty? decodes as JPEG, PNG or WebP only? at least 200 px?
+            │ (CMYK, 16-bit, alpha, EXIF rotation handled)
             │ no → "unreadable" + reason, no model is called
             ▼
      ┌──────────────── rules (free, 0.04 s) ────────────────┐   ┌──── vision LLM (Claude via CLI) ────┐

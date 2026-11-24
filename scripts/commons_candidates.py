@@ -76,7 +76,7 @@ def sheet(items: list[dict], path: Path) -> None:
         req = urllib.request.Request(it["thumb"], headers={"User-Agent": UA})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
-                im = Image.open(io.BytesIO(r.read())).convert("RGB")
+                im = Image.open(io.BytesIO(r.read()), formats=["JPEG", "PNG"]).convert("RGB")  # never Ghostscript on web bytes
         except Exception as e:  # noqa: BLE001
             print("skip", it["title"], e, file=sys.stderr)
             continue

@@ -1,6 +1,7 @@
 import json
 
 import pytest
+from PIL import EpsImagePlugin, Image
 
 from photo_checks import pipeline, rules, vlm
 
@@ -19,6 +20,20 @@ def test_gate_refuses_broken_files_with_a_reason(broken, kind):
 def test_gate_reads_odd_but_valid_formats(broken, kind):
     loaded = rules.load(broken[kind])
     assert loaded.img is not None and loaded.img.mode == "RGB" and max(loaded.img.size) == rules.WORK_SIDE
+
+
+def test_postscript_named_jpg_never_reaches_ghostscript(tmp_path, monkeypatch):
+    ps = tmp_path / "room.jpg"
+    ps.write_text("%!PS-Adobe-3.0 EPSF-3.0\n%%BoundingBox: 0 0 300 300\nnewpath 0 0 moveto 300 300 lineto stroke\nshowpage\n")
+    with Image.open(ps) as im:
+        assert im.format == "EPS"  # a plain Image.open would send this file to Ghostscript
+
+    def no_ghostscript(*_a, **_k):
+        raise AssertionError("Ghostscript called")
+
+    monkeypatch.setattr(EpsImagePlugin, "Ghostscript", no_ghostscript)
+    loaded = rules.load(ps)
+    assert loaded.img is None and loaded.reason == "unreadable (UnidentifiedImageError)"
 
 
 def test_broken_files_are_unreadable_never_ready(broken):

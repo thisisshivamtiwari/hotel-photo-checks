@@ -70,7 +70,7 @@ def near_duplicate(img: Image.Image) -> Image.Image:
     small = out.resize((int(out.width * 0.7), int(out.height * 0.7)), Image.LANCZOS)
     buf = io.BytesIO()
     small.save(buf, "JPEG", quality=65)
-    return Image.open(io.BytesIO(buf.getvalue())).convert("RGB").resize(img.size, Image.LANCZOS)
+    return Image.open(io.BytesIO(buf.getvalue()), formats=["JPEG"]).convert("RGB").resize(img.size, Image.LANCZOS)
 
 
 def edit(img: Image.Image, kind: str, rng: random.Random) -> tuple[Image.Image, dict]:
@@ -117,7 +117,7 @@ def build(src_dir: Path = ROOT / ".cache" / "original") -> dict:
     labels = {}
     for i, source in enumerate(sorted(where)):
         hotel, split = where[source]
-        img = normalise(Image.open(src_dir / f"{source}.jpg"))
+        img = normalise(Image.open(src_dir / f"{source}.jpg", formats=["JPEG"]))
         img.save(SET / f"{source}.jpg", quality=90)
         labels[source] = label(source, "none", hotel, split, amen[source], {})
         rng = random.Random(f"{source}-edits")

@@ -84,8 +84,9 @@ has to be able to say "I can't tell", and it must never turn a blank fact or an 
    model may talk itself out of seeing one. The comparison is plain code, and is tested.
 7. **How do you handle broken uploads?** A gate runs before any check: missing, empty, cut-off, non-image and
    under-200 px files become "unreadable" with a reason, and no model is called. CMYK, 16-bit, alpha, WebP and EXIF
-   rotation are converted. Tests cover each case. A failed or unparseable LLM reply becomes "unknown" for every
-   field.
+   rotation are converted. Only the JPEG, PNG and WebP decoders are ever tried: Pillow picks a decoder from the first
+   bytes, so a PostScript file named .jpg would otherwise go to Ghostscript; now it is "unreadable". Tests cover each
+   case, including that one. A failed or unparseable LLM reply becomes "unknown" for every field.
 8. **What does it cost?** Rules + CLIP are free and take 0.04 s a photo on a laptop CPU. Sonnet 5.5 at low effort is
    $0.0063 a photo at list prices through the CLI (so including its overhead). A 40-photo batch costs about 25 cents.
 9. **Why pHash and not embeddings for duplicates?** pHash caught or flagged 14 of 15 re-exports with no false

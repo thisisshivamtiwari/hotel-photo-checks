@@ -17,6 +17,9 @@ ROOT = Path(__file__).resolve().parents[2]
 THRESHOLDS = ROOT / "results" / "thresholds.json"
 MIN_SIDE = 200  # below this a listing photo can't be judged for focus or framing
 WORK_SIDE = 800
+# Pillow picks a decoder from a file's first bytes, not its name, and hands PostScript saved as .jpg to Ghostscript.
+# Only these decoders are ever tried; anything else is "unreadable".
+FORMATS = ("JPEG", "PNG", "WEBP")
 
 
 @dataclass
@@ -34,7 +37,7 @@ def load(path: Path) -> Loaded:
     if path.stat().st_size == 0:
         return Loaded(None, "empty file")
     try:
-        with Image.open(path) as im:
+        with Image.open(path, formats=FORMATS) as im:
             im.load()  # a cut-off JPEG raises here
             img = ImageOps.exif_transpose(im)
             info = {"format": im.format, "mode": im.mode, "size": list(im.size)}

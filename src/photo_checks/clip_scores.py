@@ -42,7 +42,7 @@ def compute(labels: dict, set_dir: Path) -> dict:
         text = model.encode_text(tok([PROMPTS[k] for k in keys]))
         text /= text.norm(dim=-1, keepdim=True)
         for name, lab in labels.items():
-            img = preprocess(Image.open(set_dir / f"{name}.jpg").convert("RGB")).unsqueeze(0)
+            img = preprocess(Image.open(set_dir / f"{name}.jpg", formats=["JPEG"]).convert("RGB")).unsqueeze(0)
             feat = model.encode_image(img)
             feat /= feat.norm(dim=-1, keepdim=True)
             probs = (100.0 * feat @ text.T).softmax(dim=-1)[0].tolist()
