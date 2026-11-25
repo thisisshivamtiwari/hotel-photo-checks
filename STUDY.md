@@ -86,7 +86,11 @@ has to be able to say "I can't tell", and it must never turn a blank fact or an 
    under-200 px files become "unreadable" with a reason, and no model is called. CMYK, 16-bit, alpha, WebP and EXIF
    rotation are converted. Only the JPEG, PNG and WebP decoders are ever tried: Pillow picks a decoder from the first
    bytes, so a PostScript file named .jpg would otherwise go to Ghostscript; now it is "unreadable". Tests cover each
-   case, including that one. A failed or unparseable LLM reply becomes "unknown" for every field.
+   case, including that one. A failed or unparseable LLM reply becomes "unknown" for every field. Since 25 Nov a
+   text legibility gate (legibility.py) sits in front of anything that would read text: on a document it measures
+   glyph height with MSER and chains of glyphs, and below 14 px (the AI Lab OCR test lost most numbers at 11 px and
+   read 99% at 16 px) any text read is "unknown"; on a natural photo it answers "unmeasured", because classic rules
+   found text-like lines in 31 of 40 photos with no text, and a measure that is wrong that often must not be a gate.
 8. **What does it cost?** Rules + CLIP are free and take 0.04 s a photo on a laptop CPU. Sonnet 5.5 at low effort is
    $0.0063 a photo at list prices through the CLI (so including its overhead). A 40-photo batch costs about 25 cents.
 9. **Why pHash and not embeddings for duplicates?** pHash caught or flagged 14 of 15 re-exports with no false

@@ -27,7 +27,7 @@ separately and never folded into one score.
 
 ```
 photo ──▶ gate: exists? non-empty? decodes as JPEG, PNG or WebP only? at least 200 px?
-            │ (CMYK, 16-bit, alpha, EXIF rotation handled)
+            │ (CMYK, 16-bit, alpha, EXIF rotation handled; text legibility gate for anything that reads text)
             │ no → "unreadable" + reason, no model is called
             ▼
      ┌──────────────── rules (free, 0.04 s) ────────────────┐   ┌──── vision LLM (Claude via CLI) ────┐
@@ -60,6 +60,17 @@ photo ──▶ gate: exists? non-empty? decodes as JPEG, PNG or WebP only? at l
   stricter merge (only agreed answers count) was added **after** the first test run and is marked * as post hoc.
 - **Gate written first.** [evals/gate.yaml](evals/gate.yaml) was committed before any test result existed. One of
   its five rules failed, and it stays in the file: see [evals/known_failures.yaml](evals/known_failures.yaml).
+- **Text legibility gate** ([legibility.py](src/photo_checks/legibility.py)). Nothing here reads text yet, but
+  anything that will (a price or phone number in a photo, a rate card, a folio) must first know whether the text is
+  big enough. The AI Lab test of 25 Nov 2026 ([ocria-nano-numbers](https://github.com/thisisshivamtiwari/ai-lab/tree/main/2026-11-25-ocria-nano-numbers))
+  found two OCR engines read 99% of the numbers on pages with 16 px capitals (150 dpi) and lost 206 of 300 amounts,
+  inventing 62 to 70 amount-shaped strings per 15 pages, at 11 px (100 dpi, 1-bit). So the gate finds text-like lines
+  with classic measures (MSER glyph candidates chained into lines; no reading), measures their glyph height in the
+  image's own pixels, and answers **legible** (at or above a 14 px floor), **too_small** (anything read from it is
+  "unknown"), **none**, or **unmeasured** for a natural photo, where these rules can't tell texture from text (see the
+  table below), so a text reader treats the photo as unknown. Every `check` report carries it under `text`.
+- 16-bit photos: Pillow clips `I;16` in `convert("L")`, so the loader rescales first; sent upstream as
+  [imagehash #241](https://github.com/JohannesBuchner/imagehash/pull/241).
 
 ## Results
 
@@ -141,6 +152,29 @@ Test set: 120 photos from the three test hotels (75 with a blur, exposure or til
 | tilt (n=15) | 1 / 7 / 7 | 13 / 0 / 2 | 5 / 1 / 9 | 6 / 8 / 1 | 2 / 5 / 8 | 1 / 14 / 0 | 0 / 11 / 4 |
 <!-- results:end -->
 
+**Text legibility gate** on made images of known text size (`uv run python scripts/legibility_eval.py`, writes
+[results/legibility.json](results/legibility.json)); pages after the AI Lab generator, captions stamped on the first
+10 source photos at three sizes, and the 40 source photos, which carry no text:
+
+<!-- legibility:start -->
+| Image | Capitals | Gate says | Raw measure right | Median glyph height found |
+|---|---|---|---|---|
+| Rate card, 200 dpi | 21 px | legible 3/3 | 3/3 | 20 px |
+| Rate card as a 150 dpi phone photo | 16 px | legible 3/3 | 3/3 | 16 px |
+| Rate card as a 100 dpi fax | 11 px | too_small 3/3 | 3/3 | 8 px |
+| Photo with a 36 px caption | 36 px | unmeasured 10/10 | 8/10 | 32 px |
+| Photo with a 20 px caption | 20 px | unmeasured 10/10 | 8/10 | 20 px |
+| Photo with a 10 px caption | 10 px | unmeasured 10/10 | 5/10 | 17 px |
+| The 40 source photos (no text) | none | unmeasured 40/40 | 9/40 find no line | - |
+<!-- legibility:end -->
+
+The floor works where the AI Lab evidence came from: every 200 and 150 dpi page reads, every 100 dpi fax is sent
+back as "too small", and the measured heights (20, 16, 8 px) sit either side of the 14 px floor. On natural photos
+the same rules found text-like lines in 31 of 40 photos that have none (tiles, railings, window panes), and only 5
+of 10 of the 10 px captions were caught because the texture lines drown the caption in the median. So the gate
+measures nothing on photos and says so, instead of returning a number that is right 8 times in 10. A text reader
+for photos needs a scene-text detector first (next steps).
+
 ## What the numbers say
 
 - **The free rules were the safest checker and the least useful one.** They passed 2 of 75 bad photos, the fewest of
@@ -182,6 +216,10 @@ Test set: 120 photos from the three test hotels (75 with a blur, exposure or til
   are the CLI's wall clock, with 4 to 12 calls running in parallel.
 - Not tested: composition beyond tilt (cluttered rooms, people in shot, watermarks), and whether a photo is actually
   of this hotel.
+- **The legibility gate only measures documents.** "Document" means 80% of pixels within 25 levels of one background
+  shade (pages here are 0.95+, photos 0.69 or less: a threshold set on these images). Its floor comes from one OCR
+  test on synthetic pages, with the fonts Pillow bundles, and the raw glyph measure is wrong on 2 of 10 captioned
+  photos even at 36 px.
 
 ## Next steps
 
@@ -189,12 +227,15 @@ Test set: 120 photos from the three test hotels (75 with a blur, exposure or til
 - Ask the LLM for a severity score, and only override the rules inside their unknown band.
 - A second model family as a check on the LLM's amenity calls, plus several samples per photo for a confidence signal.
 - Let a person resolve the "person" queue in a small UI, and feed the decisions back as labelled data.
+- A scene-text detector (OpenCV's DB model or similar) for photos, so the legibility gate can measure captions,
+  watermarks and signage; then a "text in photo" check with its own unknown band.
 
 ## Run it
 
 ```bash
 uv sync                                   # Python 3.12
-uv run pytest -q                          # gate, broken inputs, merge and parse rules
+uv run pytest -q                          # gate, broken inputs, merge and parse rules, text legibility
+uv run python scripts/legibility_eval.py  # the legibility table from generated pages and captioned photos
 uv run python -m photo_checks demo        # short walk-through of recorded results
 uv run python -m photo_checks ci          # replays the recorded model calls: reproduces results/summary.json, applies the gate
 uv run python -m photo_checks check data/photos/set --facts some-hotel.yaml   # rules on any folder; add --llm sonnet-5.5 to call Claude
@@ -205,9 +246,10 @@ then `uv sync --extra clip && uv run python -m photo_checks clip`, then `PHC_MOD
 (needs the Claude Code CLI signed in), then `uv run python -m photo_checks eval`. The recorded run cost $1.77
 for 320 calls.
 
-Layout: `src/photo_checks/` (dataset, rules, clip_scores, vlm, combine, pipeline, evaluate, gate, chart, readme),
+Layout: `src/photo_checks/` (dataset, rules, legibility, clip_scores, vlm, combine, pipeline, evaluate, gate, chart, readme),
 `prompts/photo_check.md`, `cassettes/` (recorded model replies), `results/` (summary.json, per_photo.json,
-thresholds.json, clip_scores.json, outcomes.png), `data/` (photos, labels, hotels), `evals/` (gate and known failures).
+thresholds.json, clip_scores.json, legibility.json, outcomes.png), `data/` (photos, labels, hotels), `evals/` (gate and
+known failures), `scripts/` (photo fetch, legibility fixtures and eval).
 
 Code: MIT. Photos: each keeps its own Commons licence (see LICENSE and data/photos/LICENSES.csv).
 

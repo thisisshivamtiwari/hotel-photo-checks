@@ -11,7 +11,7 @@ from collections.abc import Callable
 from itertools import combinations
 from pathlib import Path
 
-from . import combine, rules, vlm
+from . import combine, legibility, rules, vlm
 from .dataset import AMENITIES
 
 LlmFn = Callable[[Path], dict]  # returns vlm.parse() output
@@ -62,7 +62,7 @@ def check_photo(path: Path, facts: dict | None, th: dict, llm: LlmFn | None = No
                 unknowns.append(f"can't tell whether it shows {a} (the fact sheet says no)")
     verdict = "fix" if problems else "person" if unknowns else "ready"
     return {"photo": Path(path).name, "verdict": verdict, "problems": problems, "unknowns": unknowns, "checks": pred,
-            "phash": rules.phash(loaded.img)}  # fmt: skip
+            "phash": rules.phash(loaded.img), "text": legibility.gate(loaded.full)}  # fmt: skip
 
 
 def check_batch(paths: list[Path], facts: dict | None, th: dict, llm: LlmFn | None = None, clip: dict | None = None) -> dict:

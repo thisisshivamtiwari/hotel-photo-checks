@@ -1,0 +1,74 @@
+{
+ "floor_px": 14,
+ "fixtures": 39,
+ "conditions": {
+  "clean": {
+   "kind": "page",
+   "cap_px": 21,
+   "n": 3,
+   "gate": {
+    "legible": 3
+   },
+   "raw_correct": 3,
+   "median_height_px": 20.0
+  },
+  "phone": {
+   "kind": "page",
+   "cap_px": 16,
+   "n": 3,
+   "gate": {
+    "legible": 3
+   },
+   "raw_correct": 3,
+   "median_height_px": 16.0
+  },
+  "fax": {
+   "kind": "page",
+   "cap_px": 11,
+   "n": 3,
+   "gate": {
+    "too_small": 3
+   },
+   "raw_correct": 3,
+   "median_height_px": 8.0
+  },
+  "cap36": {
+   "kind": "photo",
+   "cap_px": 36,
+   "n": 10,
+   "gate": {
+    "unmeasured": 10
+   },
+   "raw_correct": 8,
+   "median_height_px": 32.5
+  },
+  "cap20": {
+   "kind": "photo",
+   "cap_px": 20,
+   "n": 10,
+   "gate": {
+    "unmeasured": 10
+   },
+   "raw_correct": 8,
+   "median_height_px": 19.5
+  },
+  "cap10": {
+   "kind": "photo",
+   "cap_px": 10,
+   "n": 10,
+   "gate": {
+    "unmeasured": 10
+   },
+   "raw_correct": 5,
+   "median_height_px": 17.0
+  }
+ },
+ "text_free_sources": {
+  "n": 40,
+  "gate": {
+   "unmeasured": 40
+  },
+  "raw_lines_found": 31
+ },
+ "seconds_per_image": 0.15
+}

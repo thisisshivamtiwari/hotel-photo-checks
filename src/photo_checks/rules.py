@@ -27,6 +27,7 @@ class Loaded:
     img: Image.Image | None
     reason: str | None = None  # why the gate refused it
     info: dict = field(default_factory=dict)
+    full: Image.Image | None = None  # the photo at its uploaded size, for checks that need real pixels (text height)
 
 
 def load(path: Path) -> Loaded:
@@ -53,10 +54,11 @@ def load(path: Path) -> Loaded:
         return Loaded(None, f"unreadable ({type(e).__name__})")
     if min(img.size) < MIN_SIDE:
         return Loaded(None, f"too small to judge ({img.width}x{img.height})", info)
+    full = img
     scale = WORK_SIDE / max(img.size)
     if scale != 1:
         img = img.resize((round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
-    return Loaded(img, None, info)
+    return Loaded(img, None, info, full)
 
 
 def measures(img: Image.Image) -> dict:
